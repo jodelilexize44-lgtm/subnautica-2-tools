@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subnautica 2 Base Planner - Early Access Starter Builds</title>
+    <meta name="description" content="Plan a starter Subnautica 2 base by purpose, depth, and build style.">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="release-time.html">Release</a><a href="system-requirements.html">Specs</a><a href="../guides/co-op.html">Co-op</a><a href="resource-tracker.html">Tracker</a><a href="base-planner.html" aria-current="page">Planner</a><a href="../guides/updates.html">Updates</a></div></nav></header>
+    <main>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Planner tool</span><h1>Subnautica 2 Base Planner</h1><p class="page-copy">Choose a starter base purpose and get a practical build checklist. This is intentionally simple until verified rooms and modules are known.</p></div></section>
+      <div class="content">
+        <div class="main-flow">
+          <section class="tool-panel">
+            <h2>Starter Plan</h2>
+            <form id="planner-form" class="form-grid">
+              <div class="field"><label for="baseType">Base style</label><select id="baseType" name="baseType"><option>Compact outpost</option><option>Co-op hub</option><option>Scanner station</option><option>Deep staging base</option></select></div>
+              <div class="field"><label for="depth">Depth</label><select id="depth" name="depth"><option>safe shallows</option><option>mid-depth biome</option><option>deep route</option><option>unknown frontier</option></select></div>
+              <div class="field"><label for="focus">Main purpose</label><select id="focus" name="focus"><option value="storage">Storage and crafting</option><option value="scanner">Scanning and mapping</option><option value="farm">Food and water loop</option><option value="vehicle">Vehicle support</option></select></div>
+            </form>
+            <div id="planner-output" class="result-box"></div>
+          </section>
+          <section class="tool-panel"><h2>Planning Rules</h2><ul><li>Build near a repeatable resource loop, not just a pretty view.</li><li>Put storage before decoration during the first two hours.</li><li>For co-op, create labeled lockers and agreed drop-off points.</li><li>Keep one route home visible from the water column.</li></ul></section>
+        </div>
+        <aside class="side"><div class="notice"><h3>Upgrade path</h3><p>After launch, this page can become a full room-by-room planner with material costs.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Builder guide ad location.</p></div></div></aside>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
+    <script src="../assets/app.js"></script>
+  </body>
+</html>
