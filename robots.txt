@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://jodelilexize44-lgtm.github.io/subnautica-2-tools/sitemap.xml
