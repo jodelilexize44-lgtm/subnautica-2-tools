@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subnautica 2 System Requirements Checker</title>
+    <meta name="description" content="Check whether your PC is close to the Subnautica 2 minimum or recommended system requirements listed on Steam.">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="release-time.html">Release</a><a href="system-requirements.html" aria-current="page">Specs</a><a href="../guides/co-op.html">Co-op</a><a href="resource-tracker.html">Tracker</a><a href="base-planner.html">Planner</a><a href="../guides/updates.html">Updates</a></div></nav></header>
+    <main>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">PC tool</span><h1>Subnautica 2 System Requirements Checker</h1><p class="page-copy">Compare your CPU, GPU, RAM, and storage against the Steam minimum and recommended specs for Early Access.</p></div></section>
+      <div class="content">
+        <div class="main-flow">
+          <section class="tool-panel">
+            <h2>Can your PC run it?</h2>
+            <form id="requirements-form" class="form-grid">
+              <div class="field"><label for="cpu">CPU class</label><select id="cpu" name="cpu"><option value="1">Below i5-8400 / Ryzen 5 2600</option><option value="2">i5-8400 / Ryzen 5 2600 level</option><option value="3">Modern 6-core gaming CPU</option><option value="4">i7-13700 / Ryzen 7 7700X level or better</option></select></div>
+              <div class="field"><label for="gpu">GPU class</label><select id="gpu" name="gpu"><option value="1">Below GTX 1660 / RX 5500 XT</option><option value="2">GTX 1660 6GB / RX 5500 XT 6GB level</option><option value="3">RTX 2060 / RX 6600 level</option><option value="4">RTX 3070 / RX 6700 XT level or better</option></select></div>
+              <div class="field"><label for="ram">RAM</label><select id="ram" name="ram"><option value="8">8 GB or less</option><option value="12">12 GB</option><option value="16">16 GB</option><option value="32">32 GB or more</option></select></div>
+              <div class="field"><label for="storage">Free storage</label><select id="storage" name="storage"><option value="25">Less than 50 GB</option><option value="50">50 GB or more</option><option value="100">100 GB or more</option></select></div>
+            </form>
+            <div id="requirements-result" class="result-box" aria-live="polite"></div>
+          </section>
+          <section class="tool-panel">
+            <h2>Official Listed Specs</h2>
+            <table class="table">
+              <tr><th>Part</th><th>Minimum</th><th>Recommended</th></tr>
+              <tr><td>OS</td><td>Windows 10/11</td><td>Windows 11</td></tr>
+              <tr><td>CPU</td><td>Intel Core i5-8400 / AMD Ryzen 5 2600</td><td>Intel Core i7-13700 / AMD Ryzen 7 7700X</td></tr>
+              <tr><td>RAM</td><td>12 GB</td><td>16 GB</td></tr>
+              <tr><td>GPU</td><td>GeForce GTX 1660 6GB / RX 5500 XT 6GB</td><td>GeForce RTX 3070 8GB / RX 6700 XT 8GB</td></tr>
+              <tr><td>Storage</td><td>50 GB</td><td>50 GB</td></tr>
+            </table>
+          </section>
+        </div>
+        <aside class="side"><div class="notice"><h3>Accuracy note</h3><p>This checker is a guide, not a benchmark. Specs come from the <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Steam store page</a>; Early Access performance can change with patches.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Hardware affiliate or display ad location.</p></div></div></aside>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
+    <script src="../assets/app.js"></script>
+  </body>
+</html>
