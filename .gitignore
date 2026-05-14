@@ -1,5 +1,6 @@
 chrome-*.png
 chrome-*-profile/
+debug-chrome-profile*/
 upload-ready/
 .DS_Store
 Thumbs.db
