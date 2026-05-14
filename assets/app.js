@@ -28,6 +28,7 @@ function $all(selector, root = document) {
 function initCountdown() {
   const root = $("[data-countdown]");
   if (!root) return;
+  const status = $("[data-countdown-status]");
 
   const update = () => {
     const diff = RELEASE_TARGET - new Date();
@@ -40,6 +41,11 @@ function initCountdown() {
     for (const key of Object.keys(values)) {
       const node = root.querySelector(`[data-time="${key}"]`);
       if (node) node.textContent = String(values[key]).padStart(2, "0");
+    }
+    if (status) {
+      status.textContent = diff <= 0
+        ? "The expected unlock window has arrived. Check Steam, Xbox, or Game Pass for live availability."
+        : "Countdown target: May 14, 2026 at 15:00 UTC. Final availability depends on the store.";
     }
   };
 
