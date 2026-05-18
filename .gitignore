@@ -2,5 +2,6 @@ chrome-*.png
 chrome-*-profile/
 debug-chrome-profile*/
 upload-ready/
+MEMORY-INDEX.md
 .DS_Store
 Thumbs.db
