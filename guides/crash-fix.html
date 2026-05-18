@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subnautica 2 Crash Fix - Launch Issues and Workarounds</title>
-    <meta name="description" content="Track Subnautica 2 crash fixes, low FPS workarounds, black screen issues, and current troubleshooting steps.">
+    <title>Subnautica 2 Crash Fix - Black Screen, Low FPS, Won't Launch</title>
+    <meta name="description" content="Subnautica 2 crash fix guide for won't launch, black screen, low FPS, stutter, install problems, and co-op disconnects with safe troubleshooting steps.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/crash-fix.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -28,6 +28,14 @@
               "@type": "Answer",
               "text": "This page separates official fixes, tested fixes, and community reports. Unverified workarounds are not promoted as confirmed."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I verify files or reinstall Subnautica 2 first?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Verify files first. Reinstalling should usually come after safer checks such as restarting, updating drivers, verifying files, and disabling overlays one at a time."
+            }
           }
         ]
       }
@@ -46,7 +54,19 @@
               <li>Update GPU drivers before judging launch performance.</li>
               <li>Verify game files after a failed install or interrupted patch.</li>
               <li>Disable overlays one at a time if the game fails to launch.</li>
+              <li>Write down platform, CPU, GPU, RAM, driver version, and exact error text before trying many fixes.</li>
             </ul>
+          </section>
+          <section class="tool-panel">
+            <h2>Symptom Troubleshooting Tree</h2>
+            <table class="table">
+              <tr><th>Symptom</th><th>Try first</th><th>Then check</th></tr>
+              <tr><td>Won't launch / closes immediately</td><td>Restart PC, update GPU driver, verify files.</td><td>Overlay conflict, below-minimum specs, interrupted patch, security software quarantine.</td></tr>
+              <tr><td>Black screen</td><td>Wait 60 seconds, Alt+Enter if fullscreen hangs, disable overlays one by one.</td><td>Display mode, driver version, multi-monitor setup, capture/recording software.</td></tr>
+              <tr><td>Low FPS or stutter</td><td>Use Low preset, close background apps, check thermals.</td><td>VRAM pressure, shader/cache stutter, co-op or large-base scenes, Early Access patch notes.</td></tr>
+              <tr><td>Install or update issue</td><td>Pause/resume download, verify files, check free disk space.</td><td>50 GB listed storage plus extra patch room, store service outage, antivirus lock.</td></tr>
+              <tr><td>Co-op disconnect</td><td>Confirm all players updated, restart session, test the same host.</td><td>Build mismatch, platform invite flow, NAT/privacy settings, host connection stability.</td></tr>
+            </table>
           </section>
           <section class="tool-panel">
             <h2>Known Issues Table</h2>
@@ -55,6 +75,31 @@
               <tr><td>Crash on launch</td><td>PC / store-specific</td><td>Monitoring</td><td>Update GPU drivers, verify files, restart, then check official notes.</td></tr>
               <tr><td>Black screen</td><td>PC / store-specific</td><td>Monitoring</td><td>Disable overlays one at a time and verify files before reinstalling.</td></tr>
               <tr><td>Low FPS or stutter</td><td>PC</td><td>Monitoring</td><td>Compare your PC against listed specs, lower settings, and wait for verified patch notes.</td></tr>
+              <tr><td>Co-op disconnect</td><td>Steam / PC Game Pass / Xbox</td><td>Needs test reports</td><td>Confirm all players use the same current build and test reconnect before a long save.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Safe Fix Order</h2>
+            <ol>
+              <li>Restart the PC or console and try one clean launch.</li>
+              <li>Check <a href="../tools/system-requirements.html">system requirements</a>, especially RAM, GPU class, and free storage.</li>
+              <li>Update GPU drivers if you are on PC.</li>
+              <li>Verify game files or repair the install through your store.</li>
+              <li>Disable overlays one at a time: Steam/Xbox overlay, Discord, capture tools, FPS counters.</li>
+              <li>Lower settings and test a short session before changing multiple options.</li>
+              <li>Only reinstall after the safer checks fail.</li>
+            </ol>
+          </section>
+          <section class="tool-panel">
+            <h2>Report Template</h2>
+            <p>Use this format when asking for help in Steam Discussions, Reddit, Discord, or a support channel.</p>
+            <table class="table">
+              <tr><th>Field</th><th>What to include</th></tr>
+              <tr><td>Platform</td><td>Steam, PC Game Pass, Xbox, or cloud.</td></tr>
+              <tr><td>PC specs</td><td>CPU, GPU, RAM, storage type, Windows version.</td></tr>
+              <tr><td>Symptom</td><td>Crash on launch, black screen, low FPS, disconnect, save issue.</td></tr>
+              <tr><td>When it happens</td><td>Startup, loading save, joining co-op, entering a biome, after patch.</td></tr>
+              <tr><td>What you tried</td><td>Driver update, verify files, overlay disabled, settings changed.</td></tr>
             </table>
           </section>
           <section class="tool-panel"><h2>Evidence Policy</h2><p>Fixes will only be promoted when they are official, directly tested, or repeatedly reported with enough detail to reproduce. One-off claims stay out of the main table.</p></section>
@@ -66,9 +111,11 @@
             <p>They can in some games, but this page will only list overlay-specific fixes after repeated reports or testing support them.</p>
             <h3>Where will confirmed fixes appear?</h3>
             <p>Confirmed workarounds will appear in the Known Issues table and on the <a href="updates.html">updates page</a>.</p>
+            <h3>Should I use launch commands from random comments?</h3>
+            <p>Be careful. This page does not recommend launch commands, registry edits, or file deletion steps unless they are official, directly tested, or repeatedly reported with enough detail.</p>
           </section>
         </div>
-        <aside class="side"><div class="notice"><h3>Verification rule</h3><p>This page stays conservative: no fix is marked confirmed without an official note, direct test, or repeated detailed reports.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved for troubleshooting traffic.</p></div></div></aside>
+        <aside class="side"><div class="notice"><h3>Verification rule</h3><p>This page stays conservative: no fix is marked confirmed without an official note, direct test, or repeated detailed reports.</p></div><div class="notice"><h3>Need specs?</h3><p>Use the <a href="../tools/system-requirements.html">PC checker</a> before assuming a crash is a game bug.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved for troubleshooting traffic.</p></div></div></aside>
       </div>
     </main>
     <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
