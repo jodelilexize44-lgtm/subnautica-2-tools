@@ -131,7 +131,7 @@ Affiliate 必须有清楚 disclosure，不要伪装成纯攻略推荐。
 
 ## 当前下一步
 
-1. 等 GSC sitemap 从 `Couldn't fetch` 变成 `Success`，或明天继续处理。
-2. 做厚 `guides/game-pass.html`，增加 Steam / PC Game Pass / Xbox 对比表。
-3. 做厚 `guides/crash-fix.html`，增加按症状分流的 troubleshooting tree。
-4. 开始记录 GSC query，任何有 impressions 的词都优先处理。
+1. 每天记录 GSC query、landing page、impressions、CTR、position 到 `GSC-QUERY-LOG.md`。
+2. 优先处理已有 impressions 但 CTR 低、排名 20-50、或意图落错页面的 query。
+3. 继续只发布官方、直接测试、或清楚标注 community report 的游戏内数据。
+4. 变现继续等待：稳定 impressions 或 500+ visits/month 前不上 live ads；affiliate 只在 specs / Game Pass / hardware-adjacent 页面做清楚披露。

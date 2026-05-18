@@ -41,10 +41,12 @@ Cloudflare Pages setup:
 - Add real blueprint and base material tables.
 - Log patch notes on `guides/updates.html`.
 - Expand pages based on Google Search Console queries.
+- Record Search Console query actions in `GSC-QUERY-LOG.md`.
 
 ## Business Roadmap
 
 - `MONETIZATION-ROADMAP.md` - monetization stages, page priority, daily operating rhythm, and 14-day execution plan.
+- `GSC-QUERY-LOG.md` - Search Console query log, page triage rules, and monetization gate.
 
 ## Source Policy
 
