@@ -42,6 +42,10 @@ Cloudflare Pages setup:
 - Log patch notes on `guides/updates.html`.
 - Expand pages based on Google Search Console queries.
 
+## Business Roadmap
+
+- `MONETIZATION-ROADMAP.md` - monetization stages, page priority, daily operating rhythm, and 14-day execution plan.
+
 ## Source Policy
 
 Facts should come from official store pages, developer posts, or direct in-game testing. Speculation should stay labeled.
