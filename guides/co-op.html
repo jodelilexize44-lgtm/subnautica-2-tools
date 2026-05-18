@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subnautica 2 Co-op Guide - Setup and Launch Checklist</title>
-    <meta name="description" content="Subnautica 2 co-op guide with confirmed multiplayer facts, launch setup checklist, host tips, and troubleshooting notes.">
+    <title>Subnautica 2 Co-op Guide - Crossplay, Saves, Invites</title>
+    <meta name="description" content="Subnautica 2 co-op guide covering 4-player co-op, cross-platform multiplayer, host saves, guest progress, invites, reconnects, and testing notes.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/co-op.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -28,6 +28,14 @@
               "@type": "Answer",
               "text": "Steam lists cross-platform multiplayer and the Xbox store lists cross-platform co-op capabilities. Store-specific invite, save, and reconnect behavior still need current-build testing."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Who owns the Subnautica 2 co-op save?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This page does not mark save ownership as confirmed yet. Host ownership, guest progress, blueprint sync, and reconnect behavior should be tested in the current build before relying on a long co-op save."
+            }
           }
         ]
       }
@@ -36,7 +44,7 @@
   <body>
     <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="../tools/release-time.html">Release</a><a href="../tools/system-requirements.html">Specs</a><a href="co-op.html" aria-current="page">Co-op</a><a href="../tools/resource-tracker.html">Tracker</a><a href="../tools/base-planner.html">Planner</a><a href="updates.html">Updates</a></div></nav></header>
     <main>
-      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Multiplayer guide</span><h1>Subnautica 2 Co-op Setup Guide</h1><p class="page-copy">Steam lists online co-op and cross-platform multiplayer, while Xbox store pages list cross-platform co-op capabilities. This page keeps store facts separate from save and invite behavior that still needs testing.</p></div></section>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Multiplayer guide</span><h1>Subnautica 2 Co-op Guide</h1><p class="page-copy">Steam lists online co-op and cross-platform multiplayer, while Xbox store pages list cross-platform co-op capabilities. This guide separates store facts from save ownership, invite flow, and reconnect behavior that need current-build testing.</p></div></section>
       <div class="content">
         <div class="main-flow">
           <section class="tool-panel">
@@ -47,6 +55,18 @@
               <li>Xbox store pages list online co-op and cross-platform co-op capabilities for Subnautica 2 Game Preview.</li>
               <li>Broadband internet is listed in the official system requirements.</li>
             </ul>
+          </section>
+          <section class="tool-panel">
+            <h2>Co-op Status Table</h2>
+            <table class="table">
+              <tr><th>Question</th><th>Status here</th><th>Confidence</th></tr>
+              <tr><td>Does Subnautica 2 have co-op?</td><td>Yes, public store copy describes 4-player co-op.</td><td>Official store copy</td></tr>
+              <tr><td>Is cross-platform multiplayer listed?</td><td>Yes, Steam and Xbox store pages list cross-platform features.</td><td>Official store copy</td></tr>
+              <tr><td>Who owns the save?</td><td>Needs direct current-build test.</td><td>Unconfirmed</td></tr>
+              <tr><td>Does guest progress persist?</td><td>Needs direct current-build test.</td><td>Unconfirmed</td></tr>
+              <tr><td>Do blueprints sync for every player?</td><td>Needs direct current-build test.</td><td>Unconfirmed</td></tr>
+              <tr><td>Do Steam, PC Game Pass, and Xbox invites work smoothly?</td><td>Needs store-to-store test matrix.</td><td>Unconfirmed</td></tr>
+            </table>
           </section>
           <section class="tool-panel">
             <h2>First Session Checklist</h2>
@@ -60,13 +80,25 @@
             <p data-progress-label>0/4 complete</p>
           </section>
           <section class="tool-panel">
-            <h2>Current Questions to Verify</h2>
-            <p>These need direct current-build testing before this page publishes firm answers.</p>
+            <h2>Test Matrix</h2>
+            <table class="table">
+              <tr><th>Test</th><th>Method</th><th>Record</th></tr>
+              <tr><td>Host save ownership</td><td>Host creates world, guest joins, both leave, host reloads.</td><td>Who can see and continue the world?</td></tr>
+              <tr><td>Guest progress persistence</td><td>Guest unlocks or scans something, disconnects, rejoins.</td><td>Inventory, blueprint, story, and map state after reconnect.</td></tr>
+              <tr><td>Steam to PC Game Pass invite</td><td>Steam player hosts, PC Game Pass player joins.</td><td>Invite method, errors, build version, reconnect result.</td></tr>
+              <tr><td>PC Game Pass to Steam invite</td><td>PC Game Pass player hosts, Steam player joins.</td><td>Invite method, errors, build version, reconnect result.</td></tr>
+              <tr><td>Xbox to PC session</td><td>Xbox player joins a PC-hosted world.</td><td>Privacy settings, NAT issues, build parity, voice/chat behavior.</td></tr>
+              <tr><td>Crash reconnect</td><td>Player force-closes or disconnects, then rejoins.</td><td>Spawn location, inventory, blueprint state, host stability.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Recommended Group Setup</h2>
             <ul>
-              <li>Whether save progress is host-owned or shared.</li>
-              <li>How cross-platform invites work across Steam, Xbox, and PC Game Pass.</li>
-              <li>Whether story progress, blueprints, and map discoveries sync equally for all players.</li>
-              <li>How reconnects behave after a crash or network drop.</li>
+              <li>Let the most stable PC or console host the first shared world.</li>
+              <li>Before a long session, run a 15-minute test world and reconnect every player once.</li>
+              <li>Keep a note with platform, build version, host name, and any disconnect messages.</li>
+              <li>Assign roles: host/base keeper, scout, collector, scanner, route marker.</li>
+              <li>Do not assume cross-store behavior until your exact group tests it.</li>
             </ul>
           </section>
           <section class="tool-panel">
@@ -75,11 +107,15 @@
             <p>Public store copy describes 4-player co-op. Current-build testing should confirm how invites, hosting, and reconnects work in practice.</p>
             <h3>Who owns the co-op save?</h3>
             <p>This is not confirmed here yet. We will test whether the host owns the save and whether guest progress persists after reconnecting.</p>
+            <h3>Can Steam and Game Pass players play together?</h3>
+            <p>Store pages list cross-platform multiplayer or co-op features, but this guide still needs current-build testing for the exact invite flow between Steam, PC Game Pass, and Xbox players.</p>
+            <h3>What should we test before a long co-op world?</h3>
+            <p>Test invite flow, reconnects, guest progress, blueprint sync, and whether everyone sees the same build version. A short test world can save a lot of frustration later.</p>
             <h3>Should my group wait for patches?</h3>
             <p>If your first session is important, check the <a href="updates.html">updates page</a> and known issues before starting a long co-op world.</p>
           </section>
         </div>
-        <aside class="side"><div class="notice"><h3>Policy</h3><p>Steam-listed co-op facts link back to the <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">store page</a>. Unverified claims stay in the testing section until confirmed.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved for launch traffic.</p></div></div></aside>
+        <aside class="side"><div class="notice"><h3>Policy</h3><p>Steam-listed co-op facts link back to the <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">store page</a>. Unverified claims stay in the testing section until confirmed.</p></div><div class="notice"><h3>Related</h3><p>Use the <a href="game-pass.html">Game Pass page</a> for store comparison and the <a href="crash-fix.html">crash guide</a> for disconnect troubleshooting.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved for co-op guide traffic.</p></div></div></aside>
       </div>
     </main>
     <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
