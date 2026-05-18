@@ -53,6 +53,7 @@ The site shell and internal link structure are complete enough for ongoing opera
 
 - `MONETIZATION-ROADMAP.md` - monetization stages, page priority, daily operating rhythm, and 14-day execution plan.
 - `GSC-QUERY-LOG.md` - Search Console query log, page triage rules, and monetization gate.
+- `ADSENSE-READINESS.md` - AdSense readiness checklist, blockers, and ad placement gate.
 
 ## Source Policy
 

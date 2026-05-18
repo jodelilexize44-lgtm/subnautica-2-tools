@@ -132,6 +132,7 @@ Affiliate 必须有清楚 disclosure，不要伪装成纯攻略推荐。
 ## 当前下一步
 
 1. 每天记录 GSC query、landing page、impressions、CTR、position 到 `GSC-QUERY-LOG.md`。
-2. 优先处理已有 impressions 但 CTR 低、排名 20-50、或意图落错页面的 query。
-3. 继续只发布官方、直接测试、或清楚标注 community report 的游戏内数据。
-4. 变现继续等待：稳定 impressions 或 500+ visits/month 前不上 live ads；affiliate 只在 specs / Game Pass / hardware-adjacent 页面做清楚披露。
+2. 用 `ADSENSE-READINESS.md` 检查申请条件；在 GSC 有稳定 impressions 前不申请。
+3. 优先处理已有 impressions 但 CTR 低、排名 20-50、或意图落错页面的 query。
+4. 继续只发布官方、直接测试、或清楚标注 community report 的游戏内数据。
+5. 变现继续等待：稳定 impressions 或 500+ visits/month 前不上 live ads；affiliate 只在 specs / Game Pass / hardware-adjacent 页面做清楚披露。
