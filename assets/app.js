@@ -117,21 +117,21 @@ function initPlanner() {
   const output = $("#planner-output");
   if (!form || !output) return;
 
-  const rooms = {
-    scanner: ["Scanner Room", "Extra power source", "Beacon", "Camera drone names"],
-    storage: ["Multipurpose Room", "Wall lockers", "Fabricator", "Labeling plan"],
-    farm: ["Exterior growbed", "Interior growbed", "Water source", "Food route"],
-    vehicle: ["Moonpool area", "Upgrade station", "Charging plan", "Safe approach path"]
+  const modules = {
+    scanner: ["power plan", "scanner / mapping support", "route notes", "storage for survey finds"],
+    storage: ["storage labels", "crafting access", "power plan", "repeatable resource loop"],
+    survival: ["oxygen margin", "visible return route", "emergency supplies", "route marker"],
+    vehicle: ["clear approach path", "vehicle support", "power / charging notes", "safe parking habit"]
   };
 
   const render = () => {
     const mode = form.baseType.value;
     const depth = form.depth.value;
     const focus = form.focus.value;
-    const picks = rooms[focus] || rooms.storage;
+    const picks = modules[focus] || modules.storage;
     output.innerHTML = `
       <strong>${mode} base at ${depth}</strong>
-      <p>Start with ${picks[0].toLowerCase()}, then add ${picks.slice(1).join(", ").toLowerCase()}.</p>
+      <p>Start with ${picks[0]}, then add ${picks.slice(1).join(", ")}. Keep exact room and material names in your notes until verified.</p>
       <ul>${picks.map((item) => `<li>${item}</li>`).join("")}</ul>
     `;
   };

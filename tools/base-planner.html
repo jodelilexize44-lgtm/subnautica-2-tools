@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subnautica 2 Base Planner - Early Access Starter Builds</title>
-    <meta name="description" content="Plan a starter Subnautica 2 base by purpose, depth, and build style.">
+    <title>Subnautica 2 Base Planner - Starter Location and Module Priority</title>
+    <meta name="description" content="Plan a spoiler-light Subnautica 2 starter base by purpose, location safety, module priority, co-op roles, and material tracking without unverified room names.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/tools/base-planner.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -12,21 +12,96 @@
   <body>
     <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="release-time.html">Release</a><a href="system-requirements.html">Specs</a><a href="../guides/co-op.html">Co-op</a><a href="resource-tracker.html">Tracker</a><a href="base-planner.html" aria-current="page">Planner</a><a href="../guides/updates.html">Updates</a></div></nav></header>
     <main>
-      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Planner tool</span><h1>Subnautica 2 Base Planner</h1><p class="page-copy">Choose a starter base purpose and get a practical build checklist. This is intentionally simple until verified rooms and modules are known.</p></div></section>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Planner tool</span><h1>Subnautica 2 Base Planner</h1><p class="page-copy">A spoiler-light starter base planner for Early Access. Choose the job your base needs to do, then use the location checklist, module priority, co-op roles, and material log before committing resources.</p></div></section>
       <div class="content">
         <div class="main-flow">
           <section class="tool-panel">
             <h2>Starter Plan</h2>
+            <p>Use this quick planner as a decision aid. It avoids exact room and material names until they are confirmed in-game, official, or clearly marked as community reports.</p>
             <form id="planner-form" class="form-grid">
-              <div class="field"><label for="baseType">Base style</label><select id="baseType" name="baseType"><option>Compact outpost</option><option>Co-op hub</option><option>Scanner station</option><option>Deep staging base</option></select></div>
-              <div class="field"><label for="depth">Depth</label><select id="depth" name="depth"><option>safe shallows</option><option>mid-depth biome</option><option>deep route</option><option>unknown frontier</option></select></div>
-              <div class="field"><label for="focus">Main purpose</label><select id="focus" name="focus"><option value="storage">Storage and crafting</option><option value="scanner">Scanning and mapping</option><option value="farm">Food and water loop</option><option value="vehicle">Vehicle support</option></select></div>
+              <div class="field"><label for="baseType">Base style</label><select id="baseType" name="baseType"><option>Storage and crafting outpost</option><option>Scanner and mapping station</option><option>Co-op hub</option><option>Deep route staging base</option></select></div>
+              <div class="field"><label for="depth">Location risk</label><select id="depth" name="depth"><option>near-start safe route</option><option>mid-depth route</option><option>deep route</option><option>unknown frontier</option></select></div>
+              <div class="field"><label for="focus">Main purpose</label><select id="focus" name="focus"><option value="storage">Storage and crafting</option><option value="scanner">Scanning and mapping</option><option value="survival">Oxygen and return route</option><option value="vehicle">Vehicle support</option></select></div>
             </form>
             <div id="planner-output" class="result-box"></div>
           </section>
-          <section class="tool-panel"><h2>Planning Rules</h2><ul><li>Build near a repeatable resource loop, not just a pretty view.</li><li>Put storage before decoration during the first two hours.</li><li>For co-op, create labeled lockers and agreed drop-off points.</li><li>Keep one route home visible from the water column.</li></ul></section>
+
+          <section class="tool-panel">
+            <h2>Starter Base Planning Matrix</h2>
+            <table class="table">
+              <tr><th>Base job</th><th>Use it for</th><th>Build order</th><th>Do not overbuild until</th></tr>
+              <tr><td>Storage and crafting outpost</td><td>Short dives, sorting resources, preparing the next route.</td><td>Storage, crafting access, power, route marker.</td><td>You know which materials repeat every session.</td></tr>
+              <tr><td>Scanner and mapping station</td><td>Turning unknown terrain into repeatable routes.</td><td>Power, scanner / mapping support, route notes, storage.</td><td>You verify what the station can locate in the current build.</td></tr>
+              <tr><td>Co-op hub</td><td>Giving the host and guests one agreed drop-off and planning point.</td><td>Shared storage labels, crafting access, route board, spare survival supplies.</td><td>Invite, reconnect, and guest progress behavior have been tested.</td></tr>
+              <tr><td>Deep route staging base</td><td>Reducing the risk of long dives away from the first safe loop.</td><td>Oxygen / return route, power, storage, vehicle support.</td><td>The route home is visible, repeatable, and logged.</td></tr>
+            </table>
+          </section>
+
+          <section class="tool-panel">
+            <h2>Location Checklist</h2>
+            <table class="table">
+              <tr><th>Check</th><th>Pass condition</th><th>Why it matters</th></tr>
+              <tr><td>Safe return route</td><td>You can find the way back without relying on memory alone.</td><td>Early bases fail when the trip home is unclear under pressure.</td></tr>
+              <tr><td>Repeatable resource loop</td><td>You can gather common materials nearby and record the route.</td><td>A pretty location is less useful than a reliable supply loop.</td></tr>
+              <tr><td>Room for expansion</td><td>The site can grow without blocking travel paths or visibility.</td><td>Starter bases often become staging points for later routes.</td></tr>
+              <tr><td>Visibility from water column</td><td>The base or marker is easy to spot while descending or returning.</td><td>Clear silhouettes reduce lost time and panic returns.</td></tr>
+              <tr><td>Low spoiler labeling</td><td>Names describe function, not late-game story or exact secret locations.</td><td>Useful notes should not spoil new players in co-op.</td></tr>
+            </table>
+          </section>
+
+          <section class="tool-panel">
+            <h2>Module Priority</h2>
+            <table class="table">
+              <tr><th>Priority</th><th>Generic module</th><th>Use before adding detail</th></tr>
+              <tr><td>1</td><td>Storage</td><td>Separate crafting materials, base parts, route supplies, and unknown finds.</td></tr>
+              <tr><td>2</td><td>Crafting</td><td>Keep repeat builds close to storage so short dives turn into upgrades.</td></tr>
+              <tr><td>3</td><td>Power</td><td>Record what powers the base, how stable it is, and what changed after patches.</td></tr>
+              <tr><td>4</td><td>Oxygen / return route</td><td>Plan the trip home first, especially for deeper or longer routes.</td></tr>
+              <tr><td>5</td><td>Scanner / mapping</td><td>Add only after you know what the tool can verify in that area.</td></tr>
+              <tr><td>6</td><td>Vehicle support</td><td>Keep approach paths clear and record any charging, repair, or parking needs.</td></tr>
+            </table>
+          </section>
+
+          <section class="tool-panel">
+            <h2>Co-op Division</h2>
+            <table class="table">
+              <tr><th>Role</th><th>Responsibility</th><th>Record this</th></tr>
+              <tr><td>Host</td><td>Manages the save, session start, and base naming.</td><td>Build date, platform, invite flow, reconnect behavior.</td></tr>
+              <tr><td>Resource recorder</td><td>Tracks what the group finds and what is repeatedly needed.</td><td>Exact material names, source, confidence, spoiler level.</td></tr>
+              <tr><td>Route marker</td><td>Marks safe loops, return paths, and danger notes.</td><td>Route name, nearby landmark, return difficulty.</td></tr>
+              <tr><td>Material verifier</td><td>Checks costs before the group spends rare materials.</td><td>Exact module name, required materials, source, status.</td></tr>
+            </table>
+          </section>
+
+          <section class="tool-panel">
+            <h2>Material Logging Template</h2>
+            <table class="table">
+              <tr><th>Field</th><th>What to enter</th><th>Example format</th></tr>
+              <tr><td>Exact room/module name</td><td>Copy the in-game text only after seeing it.</td><td>Confirmed name, not a guessed wiki-style label.</td></tr>
+              <tr><td>Required materials</td><td>List exact material names and counts from the current build.</td><td>Material A x2; Material B x1.</td></tr>
+              <tr><td>Source</td><td>Official, direct test, repeated community report, or unverified note.</td><td>Direct test, build/date, platform.</td></tr>
+              <tr><td>Confidence</td><td>Confirmed, community report, unverified, or changed.</td><td>Confirmed after two builds or one direct test.</td></tr>
+              <tr><td>Spoiler level</td><td>Low, medium, or high based on route and story exposure.</td><td>Low for early route notes; high for late area names.</td></tr>
+            </table>
+          </section>
+
+          <section class="tool-panel">
+            <h2>Planning Rules</h2>
+            <ul>
+              <li>Build near a repeatable resource loop, not just a good view.</li>
+              <li>Put storage, crafting, power, and the return route before decoration.</li>
+              <li>For co-op, create labeled drop-off habits before long exploration sessions.</li>
+              <li>Keep one route home visible from the water column or written in the group notes.</li>
+              <li>Move exact room, module, and material names into public tables only after verification.</li>
+            </ul>
+          </section>
         </div>
-        <aside class="side"><div class="notice"><h3>Upgrade path</h3><p>Next version: add verified room-by-room planning and material costs once those rows are tested.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Builder guide ad location.</p></div></div></aside>
+        <aside class="side">
+          <div class="notice"><h3>Use with beginner</h3><p>Pair this with the <a href="../guides/beginner-guide.html">first two hours guide</a> before building larger than your resource loop can support.</p></div>
+          <div class="notice"><h3>Track materials</h3><p>Use the <a href="resource-tracker.html">resource tracker</a> to save research progress and exact material names once verified.</p></div>
+          <div class="notice"><h3>Data pages</h3><p>Later passes should connect this planner to <a href="../guides/blueprints.html">blueprints</a> and <a href="../guides/map-biomes.html">map / biomes</a> only when those rows have sources.</p></div>
+          <div class="ad-slot"><div><h3>Ad slot</h3><p>Builder guide ad location.</p></div></div>
+        </aside>
       </div>
     </main>
     <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
