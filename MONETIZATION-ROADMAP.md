@@ -131,8 +131,9 @@ Affiliate 必须有清楚 disclosure，不要伪装成纯攻略推荐。
 
 ## 当前下一步
 
-1. 每天记录 GSC query、landing page、impressions、CTR、position 到 `GSC-QUERY-LOG.md`。
-2. 用 `ADSENSE-READINESS.md` 检查申请条件；在 GSC 有稳定 impressions 前不申请。
-3. 优先处理已有 impressions 但 CTR 低、排名 20-50、或意图落错页面的 query。
-4. 继续只发布官方、直接测试、或清楚标注 community report 的游戏内数据。
-5. 变现继续等待：稳定 impressions 或 500+ visits/month 前不上 live ads；affiliate 只在 specs / Game Pass / hardware-adjacent 页面做清楚披露。
+1. 先优化 `guides/crash-fix.html`：GSC 目前主要流量集中在 crash / crashing / crash on launch / crash on startup query。
+2. 等 GSC sitemap 状态从 `Couldn't fetch` 刷新；公开 sitemap URL 已确认 200，并已在 GSC 重新提交。
+3. 继续每天记录 GSC query、landing page、impressions、CTR、position 到 `GSC-QUERY-LOG.md`。
+4. 用 `ADSENSE-READINESS.md` 检查申请条件；在 sitemap 状态、联系邮箱、隐私披露准备好前不申请。
+5. 继续只发布官方、直接测试、或清楚标注 community report 的游戏内数据。
+6. 变现继续等待：AdSense 先准备不申请；affiliate 只在 specs / Game Pass / hardware-adjacent 页面有稳定 query 后做清楚披露。

@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subnautica 2 Crash Fix - Black Screen, Low FPS, Won't Launch</title>
-    <meta name="description" content="Subnautica 2 crash fix guide for won't launch, black screen, low FPS, stutter, install problems, and co-op disconnects with safe troubleshooting steps.">
+    <title>Subnautica 2 Crash Fix - Crashing on Startup, Black Screen, Low FPS</title>
+    <meta name="description" content="Subnautica 2 crash fix guide for crashing on startup, crash on launch, black screen, low FPS, stutter, and the exited incorrectly error with safe troubleshooting steps.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/crash-fix.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -61,6 +61,7 @@
             <h2>Symptom Troubleshooting Tree</h2>
             <table class="table">
               <tr><th>Symptom</th><th>Try first</th><th>Then check</th></tr>
+              <tr><td>Crashing on startup / crash on launch</td><td>Restart, verify files, update GPU driver, then try one clean launch.</td><td>Below-minimum specs, old driver, overlay conflict, interrupted patch, exact error text.</td></tr>
               <tr><td>Won't launch / closes immediately</td><td>Restart PC, update GPU driver, verify files.</td><td>Overlay conflict, below-minimum specs, interrupted patch, security software quarantine.</td></tr>
               <tr><td>Black screen</td><td>Wait 60 seconds, Alt+Enter if fullscreen hangs, disable overlays one by one.</td><td>Display mode, driver version, multi-monitor setup, capture/recording software.</td></tr>
               <tr><td>Low FPS or stutter</td><td>Use Low preset, close background apps, check thermals.</td><td>VRAM pressure, shader/cache stutter, co-op or large-base scenes, Early Access patch notes.</td></tr>
@@ -72,7 +73,8 @@
             <h2>Known Issues Table</h2>
             <table class="table">
               <tr><th>Issue</th><th>Platform</th><th>Status</th><th>Workaround</th></tr>
-              <tr><td>Crash on launch</td><td>PC / store-specific</td><td>Monitoring</td><td>Update GPU drivers, verify files, restart, then check official notes.</td></tr>
+              <tr><td>Crash on launch / crashing on startup</td><td>PC / store-specific</td><td>Monitoring</td><td>Update GPU drivers, verify files, restart, then check official notes.</td></tr>
+              <tr><td>"Your game might not have exited correctly..." warning</td><td>PC</td><td>Monitoring</td><td>Do the safe basics in order: verify specs, update graphics drivers, verify files, and lower settings before trying risky fixes.</td></tr>
               <tr><td>Black screen</td><td>PC / store-specific</td><td>Monitoring</td><td>Disable overlays one at a time and verify files before reinstalling.</td></tr>
               <tr><td>Low FPS or stutter</td><td>PC</td><td>Monitoring</td><td>Compare your PC against listed specs, lower settings, and wait for verified patch notes.</td></tr>
               <tr><td>Co-op disconnect</td><td>Steam / PC Game Pass / Xbox</td><td>Needs test reports</td><td>Confirm all players use the same current build and test reconnect before a long save.</td></tr>
@@ -89,6 +91,18 @@
               <li>Lower settings and test a short session before changing multiple options.</li>
               <li>Only reinstall after the safer checks fail.</li>
             </ol>
+          </section>
+          <section class="tool-panel">
+            <h2>Exact Startup Error</h2>
+            <p>If you see a warning like "Your game might not have exited correctly the last time you played" or a message telling you to verify minimum requirements, update graphics drivers, reset settings, or lower settings, treat it as a startup stability report rather than proof of one single cause.</p>
+            <table class="table">
+              <tr><th>Step</th><th>Why</th></tr>
+              <tr><td>Check your PC against the <a href="../tools/system-requirements.html">listed requirements</a>.</td><td>The warning itself points to minimum requirements as a possible cause.</td></tr>
+              <tr><td>Update GPU drivers, then restart before launching again.</td><td>Driver state is one of the safest high-impact checks.</td></tr>
+              <tr><td>Verify game files through Steam, Xbox app, or the store you used.</td><td>Interrupted patches can produce launch crashes.</td></tr>
+              <tr><td>Start from conservative settings using the <a href="best-settings.html">best settings guide</a>.</td><td>Lowering settings can reduce startup pressure on below-minimum or borderline PCs.</td></tr>
+              <tr><td>Record platform, CPU, GPU, RAM, driver version, and exact wording.</td><td>Detailed repeated reports are what turn a monitoring item into a useful confirmed workaround.</td></tr>
+            </table>
           </section>
           <section class="tool-panel">
             <h2>Report Template</h2>
@@ -123,6 +137,8 @@
             <p>Confirmed workarounds will appear in the Known Issues table and on the <a href="updates.html">updates page</a>.</p>
             <h3>Should I use launch commands from random comments?</h3>
             <p>Be careful. This page does not recommend launch commands, registry edits, or file deletion steps unless they are official, directly tested, or repeatedly reported with enough detail.</p>
+            <h3>What if I see the "game might not have exited correctly" message?</h3>
+            <p>Follow the exact startup error section above. Start with requirements, drivers, file verification, and conservative settings before trying risky fixes.</p>
           </section>
         </div>
         <aside class="side"><div class="notice"><h3>Verification rule</h3><p>This page stays conservative: no fix is marked confirmed without an official note, direct test, or repeated detailed reports.</p></div><div class="notice"><h3>Need specs?</h3><p>Use the <a href="../tools/system-requirements.html">PC checker</a> before assuming a crash is a game bug.</p></div><div class="notice"><h3>Once stable</h3><p>Move to the <a href="beginner-guide.html">beginner guide</a> and keep issue notes in <a href="updates.html">updates</a> if a patch changes behavior.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved for troubleshooting traffic.</p></div></div></aside>

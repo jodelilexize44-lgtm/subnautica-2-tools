@@ -4,9 +4,9 @@ Use this checklist before applying for AdSense or adding live ad code. The site 
 
 ## Current Decision
 
-**Do not apply yet.**
+**Prepare, but do not apply yet.**
 
-The site shell is strong enough for ongoing operation, but AdSense should wait until Google Search Console shows stable indexing and real impressions. Applying too early risks a "needs attention" review loop before the site has enough proven search demand.
+The site shell is strong enough for ongoing operation, and Search Console now shows real impressions and clicks. AdSense should still wait until the sitemap status refreshes from "Couldn't fetch" and the production contact/ad disclosure details are ready.
 
 ## Current Score
 
@@ -16,7 +16,7 @@ The site shell is strong enough for ongoing operation, but AdSense should wait u
 | Indexable content | Good | Core pages, long-tail pages, sitemap, robots, canonical tags, and internal links are in place. |
 | Trust pages | Good | About, Privacy, and Contact exist and explain editorial policy, correction workflow, local storage, and future ads/affiliate disclosure. |
 | Content quality | Good but data-light | Pages are useful templates and tools, but exact resource/blueprint/map/save data still needs official, direct-test, or labeled community evidence. |
-| Traffic proof | Not ready | GSC query/impression data has not been recorded yet. |
+| Traffic proof | Good | GSC shows 364 clicks, 14.1K impressions, 2.6% CTR, and average position 8 over the selected 3-month view. Traffic is concentrated on crash queries. |
 | Ad implementation | Not started | No live ad scripts. This is correct for the current stage. |
 | Affiliate implementation | Not started | No affiliate links. This is correct until hardware/store queries prove demand. |
 
@@ -55,7 +55,8 @@ Official references:
 
 | Blocker | Owner | Action |
 |---|---|---|
-| GSC performance data needed | Codex + user account access | Export or screenshot Search Console Performance and Pages reports, then record in `GSC-QUERY-LOG.md`. |
+| GSC performance data needed | Done | 2026-05-18 GSC snapshot recorded in `GSC-QUERY-LOG.md`. |
+| Sitemap status stale | Codex | GSC showed `/sitemap.xml` as Couldn't fetch even though public URL returns 200. Sitemap was resubmitted successfully; wait for GSC refresh. |
 | Real production contact email | User | Choose domain/email when the production domain is settled. |
 | AdSense account/site connection | User account access | Create or open AdSense, add the site, complete account tasks, and share status. |
 | Live ads privacy update | Codex after AdSense setup | Update Privacy with active provider, cookies, consent, and opt-out details before ad scripts go live. |
