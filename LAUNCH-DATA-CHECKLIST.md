@@ -13,12 +13,12 @@ Use this file during the first 48 hours after Early Access launch. Fill only wha
 
 | Question | Answer | Source | Status | Notes |
 |---|---|---|---|---|
-| Exact Steam unlock time |  |  | Unverified |  |
+| Exact Steam unlock time | Early Access date was May 14, 2026; exact minute no longer matters for player-facing copy | Steam store page | Changed | Release page moved from countdown to availability status. |
 | Steam price |  |  | Unverified |  |
-| PC Game Pass available at launch? |  |  | Unverified |  |
-| Xbox available at launch? |  |  | Unverified |  |
+| PC Game Pass available at launch? | Xbox store page shows Game Pass availability signals for Subnautica 2 Game Preview | Xbox store page | Confirmed | Final access can vary by subscription, region, and account. |
+| Xbox available at launch? | Xbox store page lists Subnautica 2 Game Preview | Xbox store page | Confirmed | Store page is the authority for region/device availability. |
 | Steam and Game Pass same build number? |  |  | Unverified |  |
-| Cross-platform multiplayer works between stores? |  |  | Unverified |  |
+| Cross-platform multiplayer works between stores? | Store pages list cross-platform multiplayer/co-op features, but invite flow still needs a direct test | Steam and Xbox store pages | Unverified | Do not claim Steam-to-Game-Pass invite behavior until tested. |
 
 Target pages:
 
@@ -30,7 +30,7 @@ Target pages:
 
 | Test | Result | Source/Test Method | Status | Notes |
 |---|---|---|---|---|
-| Max players in one session |  |  | Unverified |  |
+| Max players in one session | 4-player co-op listed publicly | Steam store page | Confirmed | Still test invite and reconnect details. |
 | Host owns the save? |  |  | Unverified |  |
 | Guest progress persists after reconnect? |  |  | Unverified |  |
 | Blueprints sync for all players? |  |  | Unverified |  |
@@ -140,7 +140,7 @@ Fill this once Search Console shows impressions.
 
 | Date | Query | Page | Impressions | Avg Position | Action Taken |
 |---|---|---|---:|---:|---|
-|  |  |  |  |  |  |
+| 2026-05-18 | public site: query | Multiple pages | n/a | n/a | Public Google results show homepage, release, specs, co-op, updates, crash-fix, resource tracker, and privacy pages indexed. Updated content to encourage recrawl. |
 |  |  |  |  |  |  |
 
 Action rules:

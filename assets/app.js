@@ -44,7 +44,7 @@ function initCountdown() {
     }
     if (status) {
       status.textContent = diff <= 0
-        ? "The expected unlock window has arrived. Check Steam, Xbox, or Game Pass for live availability."
+        ? "Early Access began on May 14, 2026. Check Steam, Xbox, or Game Pass for current availability."
         : "Countdown target: May 14, 2026 at 15:00 UTC. Final availability depends on the store.";
     }
   };
