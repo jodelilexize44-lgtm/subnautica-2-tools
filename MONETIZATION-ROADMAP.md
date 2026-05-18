@@ -58,7 +58,7 @@
 |---|---|---|
 | Day 1 | 修 GSC sitemap；确认 Google 已发现核心页 | GSC 状态记录 |
 | Day 2 | 做厚 Early Access、Game Pass、Availability | 完成官方信息页 |
-| Day 3 | 扩 System Requirements | GPU tier + settings table |
+| Day 3 | 扩 System Requirements | Done: GPU tier + settings table + upgrade priority |
 | Day 4 | 扩 Crash Fix | 症状分流表 + 安全排查步骤 |
 | Day 5 | 扩 Co-op | 测试矩阵 + 待验证清单 |
 | Day 6 | 扩 Beginner Guide | First 2 hours route |
@@ -132,6 +132,6 @@ Affiliate 必须有清楚 disclosure，不要伪装成纯攻略推荐。
 ## 当前下一步
 
 1. 等 GSC sitemap 从 `Couldn't fetch` 变成 `Success`，或明天继续处理。
-2. 做厚 `tools/system-requirements.html`，增加显卡等级和设置建议。
-3. 做厚 `guides/game-pass.html`，增加 Steam / PC Game Pass / Xbox 对比表。
+2. 做厚 `guides/game-pass.html`，增加 Steam / PC Game Pass / Xbox 对比表。
+3. 做厚 `guides/crash-fix.html`，增加按症状分流的 troubleshooting tree。
 4. 开始记录 GSC query，任何有 impressions 的词都优先处理。

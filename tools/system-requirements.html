@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Subnautica 2 System Requirements Checker</title>
-    <meta name="description" content="Check whether your PC is close to the Subnautica 2 minimum or recommended system requirements listed on Steam.">
+    <meta name="description" content="Check whether your PC can run Subnautica 2, compare Steam minimum and recommended specs, and use GPU tier and settings guidance for Early Access.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/tools/system-requirements.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -28,6 +28,14 @@
               "@type": "Answer",
               "text": "The Steam page lists Windows 11, Intel Core i7-13700 or AMD Ryzen 7 7700X, 16 GB RAM, GeForce RTX 3070 8GB or RX 6700 XT 8GB, DirectX 12, broadband internet, and 50 GB storage."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a GTX 1650 run Subnautica 2?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A GTX 1650 is below the Steam-listed minimum GPU class, which starts at GTX 1660 6GB or RX 5500 XT 6GB. Treat it as below minimum unless current-build player reports prove otherwise."
+            }
           }
         ]
       }
@@ -36,7 +44,7 @@
   <body>
     <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="release-time.html">Release</a><a href="system-requirements.html" aria-current="page">Specs</a><a href="../guides/co-op.html">Co-op</a><a href="resource-tracker.html">Tracker</a><a href="base-planner.html">Planner</a><a href="../guides/updates.html">Updates</a></div></nav></header>
     <main>
-      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">PC tool</span><h1>Subnautica 2 System Requirements Checker</h1><p class="page-copy">Compare your CPU, GPU, RAM, and storage against the Steam minimum and recommended specs for Early Access.</p></div></section>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">PC tool</span><h1>Subnautica 2 System Requirements Checker</h1><p class="page-copy">Compare your CPU, GPU, RAM, and storage against the Steam minimum and recommended specs, then use the tier table below as a conservative Early Access starting point.</p></div></section>
       <div class="content">
         <div class="main-flow">
           <section class="tool-panel">
@@ -61,16 +69,47 @@
             </table>
           </section>
           <section class="tool-panel">
+            <h2>GPU Tier Guide</h2>
+            <p>This is not a benchmark chart. It is a practical sorting table based on the Steam-listed minimum and recommended GPUs.</p>
+            <table class="table">
+              <tr><th>GPU class</th><th>Examples</th><th>Starting advice</th></tr>
+              <tr><td>Below minimum</td><td>GTX 1650, GTX 1060 3GB, older laptop GPUs</td><td>Wait for current-build reports before buying. Start below Low if the game launches.</td></tr>
+              <tr><td>Minimum class</td><td>GTX 1660 6GB, RX 5500 XT 6GB</td><td>Use Low settings first, close background apps, and watch VRAM-heavy options.</td></tr>
+              <tr><td>Middle class</td><td>RTX 2060, RTX 3060, RX 6600</td><td>Start around Low to Medium, then raise textures/effects after checking stability.</td></tr>
+              <tr><td>Recommended class</td><td>RTX 3070 8GB, RX 6700 XT 8GB</td><td>Start around Medium to High, but still expect Early Access patches to change performance.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Settings Starting Points</h2>
+            <table class="table">
+              <tr><th>Your result</th><th>First settings to try</th><th>What to watch</th></tr>
+              <tr><td>Below minimum</td><td>Lowest preset, reduced resolution if available</td><td>Startup crashes, stutter, VRAM pressure, unstable frame time</td></tr>
+              <tr><td>Minimum match</td><td>Low preset, fullscreen, background apps closed</td><td>Thermals, shader/cache stutter, texture memory</td></tr>
+              <tr><td>Recommended match</td><td>Medium or High preset, then adjust one option at a time</td><td>Patch changes, co-op performance, large-base scenes</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Upgrade Priority</h2>
+            <ol>
+              <li><strong>Storage:</strong> keep at least 50 GB free, plus extra room for patches and cache files.</li>
+              <li><strong>RAM:</strong> 12 GB is the listed minimum, but 16 GB is the safer Early Access target.</li>
+              <li><strong>GPU:</strong> the listed minimum starts at 6 GB VRAM-class cards; below that is riskier.</li>
+              <li><strong>CPU:</strong> upgrade only after GPU/RAM/storage are no longer the obvious bottleneck.</li>
+            </ol>
+          </section>
+          <section class="tool-panel">
             <h2>System Requirements FAQ</h2>
             <h3>Can I run Subnautica 2 with 8 GB RAM?</h3>
             <p>The listed minimum is 12 GB RAM, so 8 GB is below the public Steam requirement. Wait for real launch benchmarks before assuming it will be playable.</p>
+            <h3>Can I run Subnautica 2 on a GTX 1650?</h3>
+            <p>A GTX 1650 is below the listed GTX 1660 6GB minimum class. Some below-minimum PCs may still launch games, but this page will not recommend buying based on below-spec assumptions.</p>
             <h3>How much storage does Subnautica 2 need?</h3>
             <p>Steam lists 50 GB of available space. Keep extra room for Early Access patches and shader or cache files.</p>
             <h3>Should I trust performance guesses?</h3>
             <p>Treat them as estimates. Early Access performance can change quickly after patches, so verified current-build reports matter more than speculation.</p>
           </section>
         </div>
-        <aside class="side"><div class="notice"><h3>Accuracy note</h3><p>This checker is a guide, not a benchmark. Specs come from the <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Steam store page</a>; Early Access performance can change with patches.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Hardware affiliate or display ad location.</p></div></div></aside>
+        <aside class="side"><div class="notice"><h3>Accuracy note</h3><p>This checker is a guide, not a benchmark. Specs come from the <a href="https://store.steampowered.com/app/1962700/Subnautica_2/">Steam store page</a>; Early Access performance can change with patches.</p></div><div class="notice"><h3>Affiliate policy</h3><p>Hardware links, if added later, should be clearly disclosed and should not replace honest compatibility advice.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Hardware affiliate or display ad location.</p></div></div></aside>
       </div>
     </main>
     <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
