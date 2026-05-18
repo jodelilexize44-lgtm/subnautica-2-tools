@@ -23,6 +23,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 | 2026-05-18 | subnautica 2 your game might not have exited correctly the last time you played... | `guides/crash-fix.html` | 105 | 6 |  | Crash exact error | Added exact error-message section, kept fixes conservative. | Done |
 | 2026-05-18 | subnautica 2 crashes on startup | `guides/crash-fix.html` | 101 | 6 |  | Crash | Same startup cluster. | Done |
 | 2026-05-18 | subnautica 2 crashing on launch | `guides/crash-fix.html` | 143 | 5 |  | Crash | Same launch cluster. | Done |
+| 2026-05-18 | subnautica 2 system requirements / can i run subnautica 2 | `tools/system-requirements.html` | 774 | 8 |  | Specs CTR | GSC showed impressions but low clicks -> snippet / first-screen optimization. Updated title/meta, hero answer, Quick Answer, and Common GPU / RAM Questions. | Done |
 |  |  |  |  |  |  | Specs / Store / Co-op / Crash / Beginner / Resource / Map |  | Todo / Done / Watch |
 
 ## Top Pages Snapshot
@@ -31,7 +32,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 |---|---|---:|---:|---|
 | 2026-05-18 | `guides/crash-fix.html` | 328 | 12,315 | Main traffic page. Optimize first. |
 | 2026-05-18 | `guides/updates.html` | 17 | 597 | Patch notes demand exists. Keep fresh and connect to crash fixes. |
-| 2026-05-18 | `tools/system-requirements.html` | 8 | 774 | High impressions, low clicks. Review title/snippet after crash page. |
+| 2026-05-18 | `tools/system-requirements.html` | 8 | 774 | High impressions, low clicks. Title/snippet and first screen optimized after crash page. Monitor CTR after recrawl. |
 | 2026-05-18 | `/` | 5 | 97 | Homepage receives some branded/navigation traffic. |
 | 2026-05-18 | `tools/release-time.html` | 4 | 151 | Launch query tail still present. |
 | 2026-05-18 | `tools/base-planner.html` | 2 | 15 | Early signs only. |
