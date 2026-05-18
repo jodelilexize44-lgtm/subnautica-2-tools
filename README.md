@@ -1,11 +1,11 @@
 # Subnautica 2 Tools
 
-Unofficial static launch companion for Subnautica 2 Early Access.
+Unofficial static guide and tool site for Subnautica 2 Early Access.
 
 ## Pages
 
 - `index.html` - home and internal link hub
-- `tools/release-time.html` - release countdown and launch checklist
+- `tools/release-time.html` - availability, store links, and launch facts
 - `tools/system-requirements.html` - PC requirements checker
 - `guides/co-op.html` - co-op setup guide
 - `guides/beginner-guide.html` - spoiler-light beginner guide
@@ -34,11 +34,10 @@ Cloudflare Pages setup:
 - Add analytics only after updating `legal/privacy.html`.
 - Do not add fake recipes, maps, or item names before verification.
 
-## Launch-Week Content Tasks
+## Current Content Tasks
 
-- Verify exact unlock time by store.
 - Test co-op save ownership, invite flow, reconnects, and cross-platform behavior.
-- Replace resource tracker placeholders with verified resource names.
+- Replace resource tracker research rows with verified resource names.
 - Add real blueprint and base material tables.
 - Log patch notes on `guides/updates.html`.
 - Expand pages based on Google Search Console queries.
