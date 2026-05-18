@@ -8,6 +8,9 @@ Unofficial static guide and tool site for Subnautica 2 Early Access.
 - `tools/release-time.html` - availability, store links, and launch facts
 - `tools/system-requirements.html` - PC requirements checker
 - `guides/best-settings.html` - conservative PC settings starting points
+- `guides/steam-deck.html` - Steam Deck and handheld PC report template
+- `guides/save-backup.html` - save backup and co-op safety checklist
+- `guides/roadmap.html` - Early Access roadmap watchlist
 - `guides/co-op.html` - co-op setup guide
 - `guides/beginner-guide.html` - spoiler-light beginner guide
 - `tools/resource-tracker.html` - local-save checklist
@@ -36,6 +39,8 @@ Cloudflare Pages setup:
 - Do not add fake recipes, maps, or item names before verification.
 
 ## Current Content Tasks
+
+The site shell and internal link structure are complete enough for ongoing operation. Remaining work is data-driven:
 
 - Test co-op save ownership, invite flow, reconnects, and cross-platform behavior.
 - Replace resource tracker research rows with verified resource names.

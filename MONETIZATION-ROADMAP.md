@@ -47,10 +47,10 @@
 
 | 页面 | 价值 | 备注 |
 |---|---|---|
-| `guides/best-settings.html` | 高变现，硬件相关 | 从 system page 拆出 |
-| `guides/steam-deck.html` | 高搜索潜力 | 需要玩家报告或实测 |
-| `guides/save-location.html` | 工具型长尾 | 适合 PC/Game Pass |
-| `guides/roadmap.html` | 持续更新 | 只引用官方路线图/补丁 |
+| `guides/best-settings.html` | 高变现，硬件相关 | Done: conservative settings starting points, no fake FPS claims |
+| `guides/steam-deck.html` | 高搜索潜力 | Done: report template only, waits for current-build tests |
+| `guides/save-backup.html` | 工具型长尾 | Done: save safety checklist, no unverified paths |
+| `guides/roadmap.html` | 持续更新 | Done: official-first watchlist, no unsourced roadmap claims |
 
 ## 14 天执行计划
 

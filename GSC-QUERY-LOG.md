@@ -29,8 +29,10 @@ Use this file when Google Search Console starts showing impressions. The goal is
 | Bucket | Example queries | Primary page | Secondary pages |
 |---|---|---|---|
 | Specs and performance | can i run subnautica 2, gtx 1650, low fps | `tools/system-requirements.html` | `guides/crash-fix.html`, `guides/updates.html` |
+| Handhelds | steam deck, rog ally, legion go, handheld | `guides/steam-deck.html` | `guides/best-settings.html`, `tools/system-requirements.html` |
 | Store and access | subnautica 2 game pass, xbox, steam price | `guides/game-pass.html` | `tools/release-time.html`, `guides/early-access.html` |
 | Co-op and crossplay | co-op save, crossplay, invite, guest progress | `guides/co-op.html` | `guides/game-pass.html`, `guides/updates.html` |
+| Saves and backups | save location, backup save, cloud save | `guides/save-backup.html` | `guides/co-op.html`, `guides/crash-fix.html` |
 | First session | beginner guide, what to do first, first base | `guides/beginner-guide.html` | `tools/resource-tracker.html`, `tools/base-planner.html` |
 | Resources and blueprints | resources, scanner, fragments, crafting | `tools/resource-tracker.html` | `guides/blueprints.html`, `tools/base-planner.html` |
 | Map and biomes | map, biomes, locations, depth | `guides/map-biomes.html` | `tools/base-planner.html`, `guides/blueprints.html` |

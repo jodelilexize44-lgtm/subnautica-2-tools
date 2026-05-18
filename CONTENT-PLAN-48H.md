@@ -138,10 +138,14 @@ Do not rush ads before the site has enough useful content.
 
 ## Immediate Next Build Tasks
 
-1. Add `guides/crash-fix.html` skeleton.
-2. Add `guides/game-pass.html` skeleton.
-3. Add `guides/blueprints.html` skeleton.
-4. Add `guides/map-biomes.html` skeleton.
-5. Add these new URLs to `sitemap.xml`.
+Build shell completed:
 
-These pages can stay clearly marked as "launch testing in progress" until verified data exists.
+1. `guides/crash-fix.html` exists and has a symptom tree plus safe troubleshooting flow.
+2. `guides/game-pass.html` exists and has Steam / PC Game Pass / Xbox comparison.
+3. `guides/blueprints.html` exists and uses verification-first workflow tables.
+4. `guides/map-biomes.html` exists and uses spoiler-labeled route templates.
+5. `tools/base-planner.html` and `tools/resource-tracker.html` have verification-first workflows.
+6. Long-tail pages now exist for `guides/best-settings.html`, `guides/steam-deck.html`, `guides/save-backup.html`, and `guides/roadmap.html`.
+7. `sitemap.xml` includes the current public page set.
+
+Next build work should be data-driven from `GSC-QUERY-LOG.md`, official posts, direct tests, or clearly labeled community reports. Do not add exact resource, blueprint, biome, room, material, save path, or compatibility claims until verified.
