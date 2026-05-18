@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Subnautica 2 Resource Tracker - Early Access Checklist</title>
-    <meta name="description" content="Track Subnautica 2 resources, blueprints, and base prep tasks with local browser saving and verification labels.">
+    <title>Subnautica 2 Resource Tracker - Materials, Blueprints, Base Prep</title>
+    <meta name="description" content="Track Subnautica 2 resources, materials, blueprints, scanner progress, base prep, mobility upgrades, and verification status with local browser saving.">
     <link rel="canonical" href="https://jodelilexize44-lgtm.github.io/subnautica-2-tools/tools/resource-tracker.html">
     <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../assets/styles.css">
@@ -12,11 +12,11 @@
   <body>
     <header class="site-header"><nav class="nav"><a class="brand" href="../index.html"><span class="brand-mark">S2</span><span>Subnautica 2 Tools</span></a><div class="nav-links"><a href="release-time.html">Release</a><a href="system-requirements.html">Specs</a><a href="../guides/co-op.html">Co-op</a><a href="resource-tracker.html" aria-current="page">Tracker</a><a href="base-planner.html">Planner</a><a href="../guides/updates.html">Updates</a></div></nav></header>
     <main>
-      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Checklist tool</span><h1>Subnautica 2 Resource Tracker</h1><p class="page-copy">A verification-first tracker that saves in your browser. Exact resource and blueprint names are added only after testing or trusted sourcing.</p></div></section>
+      <section class="page-hero"><div class="page-hero-inner"><span class="kicker">Checklist tool</span><h1>Subnautica 2 Resource Tracker</h1><p class="page-copy">A verification-first tracker that saves in your browser. Use it to organize survival resources, scanner progress, base prep, and mobility notes without trusting fake item names.</p></div></section>
       <div class="content">
         <div class="main-flow">
           <section class="tool-panel">
-            <h2>Early Access Prep Tracker</h2>
+            <h2>Research Tracker</h2>
             <div class="checklist" data-checklist="resource-tracker">
               <label class="check-item"><input type="checkbox" name="basic-materials"><span>Basic crafting materials route documented</span><small>Research queue</small></label>
               <label class="check-item"><input type="checkbox" name="oxygen"><span>Oxygen upgrade path documented</span><small>Research queue</small></label>
@@ -28,9 +28,44 @@
             <div class="progress"><span data-progress></span></div>
             <p data-progress-label>0/6 complete</p>
           </section>
+          <section class="tool-panel">
+            <h2>Resource Categories</h2>
+            <table class="table">
+              <tr><th>Category</th><th>What to record</th><th>Priority</th></tr>
+              <tr><td>Survival loop</td><td>Food, water, oxygen support, safe return routes.</td><td>Early</td></tr>
+              <tr><td>Crafting basics</td><td>Materials used repeatedly for tools and repairs.</td><td>Early</td></tr>
+              <tr><td>Scanner and blueprints</td><td>Unlock method, scan source, fragment count, usefulness.</td><td>Early / Mid</td></tr>
+              <tr><td>Starter base</td><td>Storage, power, crafting, route markers, expansion needs.</td><td>Early / Mid</td></tr>
+              <tr><td>Mobility upgrades</td><td>Vehicle or movement-related requirements and unlock chain.</td><td>Mid</td></tr>
+              <tr><td>Late exploration</td><td>Deep route prep, danger notes, spoiler labels.</td><td>Late</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Material Row Template</h2>
+            <table class="table">
+              <tr><th>Field</th><th>Use</th></tr>
+              <tr><td>Exact name</td><td>Copy the in-game resource name exactly.</td></tr>
+              <tr><td>Found in</td><td>Use a spoiler-light area or biome hint.</td></tr>
+              <tr><td>Used for</td><td>Tool, base part, oxygen path, scanner path, mobility, or late upgrade.</td></tr>
+              <tr><td>Priority</td><td>Early, mid, late, optional, or emergency.</td></tr>
+              <tr><td>Confidence</td><td>Confirmed in-game, official, community report, or unverified.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Starter Tracking Table</h2>
+            <table class="table">
+              <tr><th>Track</th><th>Status</th><th>Next action</th></tr>
+              <tr><td>Basic materials</td><td>Research queue</td><td>Record exact names and repeatable route.</td></tr>
+              <tr><td>Oxygen path</td><td>Research queue</td><td>Record upgrade chain and required resources.</td></tr>
+              <tr><td>Scanner workflow</td><td>Research queue</td><td>Record what unlocks first and where scans happen.</td></tr>
+              <tr><td>Starter base</td><td>Research queue</td><td>Record minimum useful modules, power, and storage needs.</td></tr>
+              <tr><td>Food and water</td><td>Research queue</td><td>Record early reliable loop without over-spoiling.</td></tr>
+              <tr><td>Mobility</td><td>Research queue</td><td>Record movement or vehicle unlock requirements.</td></tr>
+            </table>
+          </section>
           <section class="tool-panel"><h2>Next Data Pass</h2><p>Each category should become a table with exact material names, biome hints, blueprint source, and whether the item is essential, optional, or late-game.</p></section>
         </div>
-        <aside class="side"><div class="notice"><h3>Local save</h3><p>Checklist progress is stored in your browser only. No account is required.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Future display ad.</p></div></div></aside>
+        <aside class="side"><div class="notice"><h3>Local save</h3><p>Checklist progress is stored in your browser only. No account is required.</p></div><div class="notice"><h3>Related</h3><p>Use the <a href="../guides/beginner-guide.html">beginner guide</a>, <a href="base-planner.html">base planner</a>, and <a href="../guides/blueprints.html">blueprints tracker</a> together.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Future display ad.</p></div></div></aside>
       </div>
     </main>
     <footer class="site-footer"><div class="footer-inner"><p>Unofficial fan project.</p><div class="footer-links"><a href="../legal/about.html">About</a><a href="../legal/privacy.html">Privacy</a><a href="../legal/contact.html">Contact</a></div></div></footer>
