@@ -18,10 +18,25 @@
           <section class="tool-panel">
             <h2>Blueprint Table</h2>
             <table class="table">
-              <tr><th>Blueprint</th><th>How to unlock</th><th>Used for</th><th>Confidence</th></tr>
-              <tr><td>Early oxygen upgrade path</td><td>Needs direct in-game confirmation</td><td>Early survival routing</td><td>Research queue</td></tr>
-              <tr><td>Scanner workflow</td><td>Needs direct in-game confirmation</td><td>Blueprint discovery</td><td>Research queue</td></tr>
-              <tr><td>Starter base components</td><td>Needs direct in-game confirmation</td><td>First base checklist</td><td>Research queue</td></tr>
+              <tr><th>Blueprint lane</th><th>How to unlock</th><th>Used for</th><th>Confidence</th><th>Can fill when</th></tr>
+              <tr><td>Early oxygen upgrade path</td><td>Needs direct in-game confirmation</td><td>Early survival routing</td><td>Research queue</td><td>Exact upgrade name and unlock method are recorded.</td></tr>
+              <tr><td>Scanner workflow</td><td>Needs direct in-game confirmation</td><td>Blueprint discovery</td><td>Research queue</td><td>Current build confirms how scanning/unlocks work.</td></tr>
+              <tr><td>Starter base components</td><td>Needs direct in-game confirmation</td><td>First base checklist</td><td>Research queue</td><td>Exact module names and resource needs are confirmed.</td></tr>
+              <tr><td>Tools and equipment</td><td>Needs direct in-game confirmation</td><td>Survival, exploration, crafting</td><td>Research queue</td><td>Exact tool name, source, and requirement are verified.</td></tr>
+              <tr><td>Vehicles and mobility</td><td>Official or direct-test data required</td><td>Travel, hauling, base support</td><td>Watch item</td><td>Official patch note or current-build unlock chain confirms details.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Blueprint Row Schema</h2>
+            <table class="table">
+              <tr><th>Field</th><th>Required before publishing</th></tr>
+              <tr><td>Exact blueprint name</td><td>Copied from the current build or official source.</td></tr>
+              <tr><td>Unlock source</td><td>Scan, story trigger, crafting station, fragment count, or other confirmed method.</td></tr>
+              <tr><td>Required resources</td><td>Exact resource names only; unknown costs stay blank.</td></tr>
+              <tr><td>Use case</td><td>Survival, base, mobility, map route, co-op, story, or optional convenience.</td></tr>
+              <tr><td>Evidence</td><td>Screenshot, direct test note, official link, or repeated community report.</td></tr>
+              <tr><td>Build/date</td><td>Needed so patch changes can be retested.</td></tr>
+              <tr><td>Spoiler level</td><td>Low, medium, high, or hidden from beginner routes.</td></tr>
             </table>
           </section>
           <section class="tool-panel"><h2>What To Record</h2><ul><li>Exact blueprint name as shown in-game.</li><li>Unlock method: scan, story, crafting station, or other trigger.</li><li>Location hint with spoiler level, not a fake map coordinate.</li><li>Patch/build date so old unlock routes can be corrected later.</li></ul></section>
@@ -35,6 +50,10 @@
               <tr><td>3</td><td>Check whether the blueprint changes starter base priorities.</td><td><a href="../tools/base-planner.html">Base planner</a></td></tr>
               <tr><td>4</td><td>Add the source, confidence label, spoiler level, and build date before publishing as guidance.</td><td>This page</td></tr>
             </table>
+          </section>
+          <section class="tool-panel">
+            <h2>Do Not Fill Yet</h2>
+            <p>Do not publish tool names, vehicle unlock chains, fragment counts, material costs, or story-gated unlocks from memory, speculation, or old Subnautica assumptions. A blank row with clear evidence requirements is better than a confident wrong row.</p>
           </section>
         </div>
         <aside class="side"><div class="notice"><h3>Related tool</h3><p>Use the <a href="../tools/resource-tracker.html">resource tracker</a> for material collection.</p></div><div class="notice"><h3>Base planning</h3><p>When an unlock affects storage, crafting, power, routes, or vehicle support, update the <a href="../tools/base-planner.html">base planner</a> notes too.</p></div><div class="notice"><h3>Map context</h3><p>Keep location hints spoiler-light and cross-check them against <a href="map-biomes.html">map and biome notes</a>.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Reserved.</p></div></div></aside>

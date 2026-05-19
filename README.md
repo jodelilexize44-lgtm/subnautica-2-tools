@@ -48,8 +48,10 @@ Cloudflare Pages setup:
 The site shell and internal link structure are complete enough for ongoing operation. Remaining work is data-driven:
 
 - Test co-op save ownership, invite flow, reconnects, and cross-platform behavior.
-- Replace resource tracker research rows with verified resource names.
-- Add real blueprint and base material tables.
+- Replace resource tracker research rows with verified resource names once each row has an exact name, source method, use, screenshot/direct note, and build date.
+- Add real blueprint and base material tables once scan/unlock method, requirements, evidence, spoiler level, and current build are recorded.
+- Fill map/biome, creature, vehicle, tool, story, and character comparison rows only after official, direct-test, or clearly labeled community evidence exists.
+- Add player screenshots only with permission, credit, platform, build date, and spoiler labels.
 - Log patch notes on `guides/updates.html`.
 - Expand pages based on Google Search Console queries.
 - Record Search Console query actions in `GSC-QUERY-LOG.md`.

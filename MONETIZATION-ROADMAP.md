@@ -55,6 +55,15 @@
 | `guides/save-backup.html` | 工具型长尾 | Done: save safety checklist, no unverified paths |
 | `guides/roadmap.html` | 持续更新 | Done: official-first watchlist, no unsourced roadmap claims |
 
+### 数据库骨架：现在能做，数据逐行等证据
+
+| 数据区 | 现在已完成 | 什么时候能补真实行 |
+|---|---|---|
+| `tools/resource-tracker.html` | 资源分类、行状态、证据门槛、三轮数据 pass | 有 exact in-game name、source method、use、screenshot/direct note、build date 后立刻补 |
+| `guides/blueprints.html` | blueprint lane、row schema、tools/vehicles watch item、Do Not Fill Yet 红线 | 有 scan/unlock method、exact name、requirements、evidence、build date 后补 |
+| `guides/map-biomes.html` | biome row schema、route template、visual map gate、spoiler policy | 有官方/游戏内 area name 或直接路线实测后先补文本，视觉地图等数据足够再做 |
+| `guides/game-content.html` | character comparison framework、future content intake board | creatures / vehicles / story / character differences 等官方或实测确认后补 |
+
 ## 14 天执行计划
 
 | 天数 | 重点 | 产出 |

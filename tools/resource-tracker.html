@@ -29,15 +29,27 @@
             <p data-progress-label>0/6 complete</p>
           </section>
           <section class="tool-panel">
+            <h2>Database Row Status</h2>
+            <p>Resource rows can be added before the whole game is mapped, but every public row needs enough evidence to survive a patch or correction request.</p>
+            <table class="table">
+              <tr><th>Status</th><th>Meaning</th><th>Allowed on public page?</th></tr>
+              <tr><td>Ready to publish</td><td>Exact name, current-build source, use, screenshot or direct test note, spoiler label.</td><td>Yes.</td></tr>
+              <tr><td>Needs one more source</td><td>Likely real, but only one incomplete report or missing screenshot/build date.</td><td>No; keep in research queue.</td></tr>
+              <tr><td>Community report</td><td>Repeated player reports with enough detail, but not directly tested here.</td><td>Yes, only if labeled.</td></tr>
+              <tr><td>Changed by patch</td><td>Name, source, route, or use may have changed after an update.</td><td>Only after retest.</td></tr>
+              <tr><td>Do not publish</td><td>Invented, copied from unsourced posts, missing exact name, or likely from a different game/build.</td><td>No.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
             <h2>Resource Categories</h2>
             <table class="table">
-              <tr><th>Category</th><th>What to record</th><th>Priority</th></tr>
-              <tr><td>Survival loop</td><td>Food, water, oxygen support, safe return routes.</td><td>Early</td></tr>
-              <tr><td>Crafting basics</td><td>Materials used repeatedly for tools and repairs.</td><td>Early</td></tr>
-              <tr><td>Scanner and blueprints</td><td>Unlock method, scan source, fragment count, usefulness.</td><td>Early / Mid</td></tr>
-              <tr><td>Starter base</td><td>Storage, power, crafting, route markers, expansion needs.</td><td>Early / Mid</td></tr>
-              <tr><td>Mobility upgrades</td><td>Vehicle or movement-related requirements and unlock chain.</td><td>Mid</td></tr>
-              <tr><td>Late exploration</td><td>Deep route prep, danger notes, spoiler labels.</td><td>Late</td></tr>
+              <tr><th>Category</th><th>What to record</th><th>Priority</th><th>Can fill when</th></tr>
+              <tr><td>Survival loop</td><td>Food, water, oxygen support, safe return routes.</td><td>Early</td><td>Direct first-session test confirms names and route.</td></tr>
+              <tr><td>Crafting basics</td><td>Materials used repeatedly for tools and repairs.</td><td>Early</td><td>Exact names and uses are observed in current build.</td></tr>
+              <tr><td>Scanner and blueprints</td><td>Unlock method, scan source, fragment count, usefulness.</td><td>Early / Mid</td><td>Scan/unlock method is tested or screenshot-backed.</td></tr>
+              <tr><td>Starter base</td><td>Storage, power, crafting, route markers, expansion needs.</td><td>Early / Mid</td><td>Base module names and material needs are verified.</td></tr>
+              <tr><td>Mobility upgrades</td><td>Vehicle or movement-related requirements and unlock chain.</td><td>Mid</td><td>Tool or vehicle unlock chain is official or directly tested.</td></tr>
+              <tr><td>Late exploration</td><td>Deep route prep, danger notes, spoiler labels.</td><td>Late</td><td>Spoiler handling and route evidence are complete.</td></tr>
             </table>
           </section>
           <section class="tool-panel">
@@ -73,7 +85,16 @@
               <tr><td>A co-op issue</td><td>Host, guest, platform, build date, and what changed after reconnect.</td><td><a href="../guides/co-op.html">Co-op guide</a> or <a href="../guides/updates.html">updates</a> if repeated.</td></tr>
             </table>
           </section>
-          <section class="tool-panel"><h2>Next Data Pass</h2><p>Each category should become a table with exact material names, biome hints, blueprint source, and whether the item is essential, optional, or late-game.</p></section>
+          <section class="tool-panel">
+            <h2>Next Data Pass</h2>
+            <p>Each category should become a table with exact material names, biome hints, blueprint source, and whether the item is essential, optional, or late-game.</p>
+            <table class="table">
+              <tr><th>Pass</th><th>Goal</th><th>Stop condition</th></tr>
+              <tr><td>Pass 1</td><td>Record exact names and repeat uses from the first session.</td><td>Stop if a row lacks screenshot, build date, or direct note.</td></tr>
+              <tr><td>Pass 2</td><td>Connect resources to blueprints, base planning, and map routes.</td><td>Stop if the dependency is assumed rather than observed.</td></tr>
+              <tr><td>Pass 3</td><td>Separate essential, optional, late-game, and spoiler-heavy materials.</td><td>Stop if spoiler level is unclear.</td></tr>
+            </table>
+          </section>
         </div>
         <aside class="side"><div class="notice"><h3>Local save</h3><p>Checklist progress is stored in your browser only. No account is required.</p></div><div class="notice"><h3>Related</h3><p>Use the <a href="../guides/beginner-guide.html">beginner guide</a>, <a href="base-planner.html">base planner</a>, and <a href="../guides/blueprints.html">blueprints tracker</a> together.</p></div><div class="notice"><h3>Map notes</h3><p>When a material depends on a route or area, add spoiler-labeled context to <a href="../guides/map-biomes.html">map and biome notes</a>.</p></div><div class="ad-slot"><div><h3>Ad slot</h3><p>Future display ad.</p></div></div></aside>
       </div>
