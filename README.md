@@ -16,7 +16,7 @@ Unofficial static guide and tool site for Subnautica 2 Early Access.
 - `tools/resource-tracker.html` - local-save checklist
 - `tools/base-planner.html` - starter base planner
 - `guides/updates.html` - update and known-issue log
-- `legal/about.html`, `legal/privacy.html`, `legal/contact.html` - trust and ad-review pages
+- `legal/about.html`, `legal/privacy.html`, `legal/contact.html`, `legal/advertise.html` - trust, ad-review, and partnership pages
 
 ## Deploy
 
@@ -54,6 +54,7 @@ The site shell and internal link structure are complete enough for ongoing opera
 - `MONETIZATION-ROADMAP.md` - monetization stages, page priority, daily operating rhythm, and 14-day execution plan.
 - `GSC-QUERY-LOG.md` - Search Console query log, page triage rules, and monetization gate.
 - `ADSENSE-READINESS.md` - AdSense readiness checklist, blockers, and ad placement gate.
+- `legal/advertise.html` - public advertising, sponsorship, affiliate, and brand safety policy.
 
 ## Source Policy
 
