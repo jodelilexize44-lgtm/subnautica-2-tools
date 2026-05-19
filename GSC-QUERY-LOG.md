@@ -26,6 +26,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 | 2026-05-18 | subnautica 2 crashing on launch | `guides/crash-fix.html` | 143 | 5 |  | Crash | Same launch cluster. | Done |
 | 2026-05-18 | subnautica 2 system requirements / can i run subnautica 2 | `tools/system-requirements.html` | 774 | 8 |  | Specs CTR | GSC showed impressions but low clicks -> snippet / first-screen optimization. Updated title/meta, hero answer, Quick Answer, and Common GPU / RAM Questions. | Done |
 | 2026-05-19 | subnautica 2 patch notes / updates / roadmap | `guides/updates.html` | 597 | 17 |  | Updates CTR | GSC showed patch notes demand. Reworked title/meta, hero, Quick Status, Official Sources, Patch Note Tracker, and after-patch retest workflow. | Done |
+| 2026-05-19 | subnautica 2 game pass / pc game pass / xbox cloud | `guides/game-pass.html` |  |  |  | Store CTR | High-intent store page optimized from roadmap priority. Updated title/meta, hero, Quick Status, Steam vs PC Game Pass vs Xbox comparison, Before You Choose Game Pass, and FAQ. | Done |
 |  |  |  |  |  |  | Specs / Store / Co-op / Crash / Beginner / Resource / Map |  | Todo / Done / Watch |
 
 ## Top Pages Snapshot
