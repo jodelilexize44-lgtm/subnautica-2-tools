@@ -37,7 +37,7 @@ Cloudflare Pages setup:
 
 ## Before AdSense
 
-- Replace the placeholder contact text with a real domain email.
+- Contact page now lists a reachable inbox: `jodelilexize44-lgtm@gmail.com`. Replace with a custom-domain inbox later if desired.
 - Add the production domain to all canonical URLs if canonical tags are introduced.
 - Add Google Search Console and submit a sitemap after the domain is chosen.
 - Add analytics only after updating `legal/privacy.html`.

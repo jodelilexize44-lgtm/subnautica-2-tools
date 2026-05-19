@@ -6,7 +6,7 @@ Use this checklist before applying for AdSense or adding live ad code. The site 
 
 **Prepare, but do not apply yet.**
 
-The site shell is strong enough for ongoing operation, and Search Console now shows real impressions and clicks. AdSense should still wait until the sitemap status refreshes from "Couldn't fetch", the production contact details are real, and the AdSense account/site connection is ready.
+The site shell is strong enough for ongoing operation, and Search Console now shows real impressions and clicks. A real contact inbox is now listed. AdSense should still wait until the sitemap status refreshes from "Couldn't fetch" and the AdSense account/site connection is ready.
 
 ## 2026-05-19 Monetization Audit
 
@@ -14,7 +14,7 @@ The site shell is strong enough for ongoing operation, and Search Console now sh
 |---|---|---|
 | Content depth | Stronger than before. The site now has a player hub, download/install guide, database index, gallery/media rules, and database evidence framework. | Keep replacing research queues with verified rows as official, direct-test, or labeled community evidence appears. Do not submit thin placeholder-only pages as if they are finished databases. |
 | Search proof | Good early signal. GSC snapshot recorded 364 clicks and 14.1K impressions over the selected 3-month view, mostly crash traffic. | Recheck current GSC Pages, Sitemaps, and Performance before applying. Confirm sitemap status is Success or at least no longer stuck as Couldn't fetch. |
-| Trust pages | About, Privacy, Contact, Advertise exist and explain source policy, corrections, local storage, future ads, and sponsorship rules. | Replace the placeholder contact status with a real reachable inbox before AdSense review or direct sponsorship outreach. |
+| Trust pages | About, Privacy, Contact, Advertise exist and explain source policy, corrections, local storage, future ads, and sponsorship rules. | Done: reachable inbox listed as `jodelilexize44-lgtm@gmail.com`. Replace with a custom-domain inbox later if desired. |
 | Empty ad slots | Pages contain future ad containers, but live ad code is not active. | Keep placeholders hidden from the user until AdSense is approved or a direct campaign exists. Do not show blank ad boxes during review. |
 | Privacy and consent | Privacy page says no ad provider is active yet. | Before live Google ads, disclose Google/third-party cookies, personalization, user controls, consent handling for EEA/UK users, and opt-out links. |
 | `ads.txt` | Not present. This is correct until a publisher ID exists. | Add only after AdSense provides the exact publisher ID, then verify it from the deployed root URL. |
@@ -27,7 +27,7 @@ The site shell is strong enough for ongoing operation, and Search Console now sh
 |---|---|---|
 | Site ownership | Partial | GitHub Pages is live and GSC verification file exists. AdSense account/site connection still requires account access. |
 | Indexable content | Good | Core pages, long-tail pages, sitemap, robots, canonical tags, and internal links are in place. |
-| Trust pages | Good | About, Privacy, and Contact exist and explain editorial policy, correction workflow, local storage, and future ads/affiliate disclosure. |
+| Trust pages | Good | About, Privacy, Contact, and Advertise exist and explain editorial policy, correction workflow, local storage, future ads/affiliate disclosure, and a reachable inbox. |
 | Content quality | Good but data-light | Pages are useful templates, tools, and database frameworks, but exact resource/blueprint/map/save data still needs official, direct-test, or labeled community evidence. |
 | Traffic proof | Good | GSC shows 364 clicks, 14.1K impressions, 2.6% CTR, and average position 8 over the selected 3-month view. Traffic is concentrated on crash queries. |
 | Ad implementation | Not started | No live ad scripts. Empty ad placeholders should stay hidden until approval or real inventory exists. |
@@ -71,7 +71,7 @@ Official references:
 |---|---|---|
 | GSC performance data needed | Done | 2026-05-18 GSC snapshot recorded in `GSC-QUERY-LOG.md`. |
 | Sitemap status stale | Codex | GSC showed `/sitemap.xml` as Couldn't fetch even though public URL returns 200. Sitemap was resubmitted successfully; wait for GSC refresh. |
-| Real production contact email | User | Choose domain/email when the production domain is settled. |
+| Real production contact email | Done | Reachable inbox configured: `jodelilexize44-lgtm@gmail.com`. A custom-domain inbox can replace it later. |
 | AdSense account/site connection | User account access | Create or open AdSense, add the site, complete account tasks, and share status. |
 | Live ads privacy update | Codex after AdSense setup | Privacy has been prepared with future Google ads/cookie language, but must be updated again with active provider, consent, and deployment-specific details before ad scripts go live. |
 | `ads.txt` decision | Codex after AdSense approval | Add only if AdSense provides a publisher ID and requires it for this deployment. |
@@ -102,7 +102,7 @@ Affiliate links should wait longer than AdSense.
 ## Next Operating Steps
 
 1. Recheck GSC Pages, Sitemaps, and Performance; record the current snapshot in `GSC-QUERY-LOG.md`.
-2. Replace the placeholder contact status with a real production inbox.
+2. Contact blocker is resolved with `jodelilexize44-lgtm@gmail.com`; replace with a custom-domain inbox later if desired.
 3. Keep empty ad placeholders hidden until AdSense approval or direct sponsorship inventory exists.
 4. Fix pages with impressions but poor CTR or position 20-50.
 5. Keep collecting official, direct-test, or repeated community data for co-op, saves, crashes, handhelds, resources, blueprints, and maps.
