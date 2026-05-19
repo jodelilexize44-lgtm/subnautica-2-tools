@@ -5,6 +5,7 @@ Unofficial static guide and tool site for Subnautica 2 Early Access.
 ## Pages
 
 - `index.html` - home and internal link hub
+- `community.html` - community report and submission hub
 - `tools/release-time.html` - availability, store links, and launch facts
 - `tools/system-requirements.html` - PC requirements checker
 - `guides/best-settings.html` - conservative PC settings starting points
