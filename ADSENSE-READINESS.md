@@ -73,6 +73,7 @@ Official references:
 | Sitemap status stale | Codex | 2026-05-19 15:22 GSC detail says Sitemap could not be read. Correct URL confirmed, XML validates locally, Googlebot GET returns 200 application/xml, and UI resubmission succeeded. Wait for GSC to process the new submission. |
 | Real production contact email | Done | Reachable inbox configured: `jodelilexize44@gmail.com`. A custom-domain inbox can replace it later. |
 | Public crawlability | Done | 2026-05-19 live checks: robots.txt 200, sitemap.xml 200, contact page 200, Googlebot user-agent gets 200 for sitemap, sitemap has 26 URLs. |
+| Alternate canonical notice | No action needed | Page Indexing shows only `index.html` as `Alternate page with proper canonical tag`; canonical home URL is `/`, so this is expected duplicate handling. |
 | AdSense account/site connection | User account access | Create or open AdSense, add the site, complete account tasks, and share status. |
 | Live ads privacy update | Codex after AdSense setup | Privacy has been prepared with future Google ads/cookie language, but must be updated again with active provider, consent, and deployment-specific details before ad scripts go live. |
 | `ads.txt` decision | Codex after AdSense approval | Add only if AdSense provides a publisher ID and requires it for this deployment. |
