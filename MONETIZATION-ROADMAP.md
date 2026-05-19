@@ -1,4 +1,4 @@
-# Subnautica 2 Tools 变现路线图
+﻿# Subnautica 2 Tools 变现路线图
 
 > 目标：把这个站从“上线窗口工具站”升级成一个长期可更新、可收录、可变现的英文游戏攻略资产。
 
@@ -47,6 +47,9 @@
 
 | 页面 | 价值 | 备注 |
 |---|---|---|
+| `guides/download-install.html` | 高入口，承接 download / install / Steam / Epic / Xbox / Game Pass / cloud | Done: 官方来源约束的下载、安装、首启和排障路径，不替代地区商店 |
+| `guides/player-database.html` | 玩家 Hub 总索引，降低“工具目录”感 | Done: 汇总所有内容线、证据标签和下一批数据缺口 |
+| `guides/gallery.html` | 视觉、音乐、截图、高玩作品和社区投稿入口 | Done: 只用官方媒体和投稿规则，不盗用玩家截图 |
 | `guides/best-settings.html` | 高变现，硬件相关 | Done: conservative settings starting points, no fake FPS claims |
 | `guides/steam-deck.html` | 高搜索潜力 | Done: report template only, waits for current-build tests |
 | `guides/save-backup.html` | 工具型长尾 | Done: save safety checklist, no unverified paths |

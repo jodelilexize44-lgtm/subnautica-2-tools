@@ -7,9 +7,12 @@ Unofficial static guide and tool site for Subnautica 2 Early Access.
 - `index.html` - home and internal link hub
 - `community.html` - community report and submission hub
 - `tools/release-time.html` - availability, store links, and launch facts
+- `guides/download-install.html` - Steam, Epic, Xbox, PC Game Pass, cloud, install, first-launch, and store-choice guide
+- `guides/player-database.html` - full player hub index and evidence/status map
 - `tools/system-requirements.html` - PC requirements checker
 - `guides/best-settings.html` - conservative PC settings starting points
 - `guides/game-content.html` - source-labeled game content, media, characters, soundtrack, and screenshot hub
+- `guides/gallery.html` - official media, screenshot submission rules, high-end captures, builds, and ambience notes
 - `guides/steam-deck.html` - Steam Deck and handheld PC report template
 - `guides/save-backup.html` - save backup and co-op safety checklist
 - `guides/roadmap.html` - Early Access roadmap watchlist
