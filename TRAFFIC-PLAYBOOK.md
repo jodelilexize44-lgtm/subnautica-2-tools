@@ -23,13 +23,25 @@ This playbook is for ethical launch-week traffic. The goal is to answer real pla
 | P1 | Official social/community links | official video descriptions and website | official clarifications | cite as sources, do not hard-promote |
 | P2 | Fandom/Wiki talk pages | https://subnautica.fandom.com/wiki/Subnautica_2 | missing info and source gaps | usually cite sources, avoid self-promo unless allowed |
 
-## Launch-Day Monitoring Cadence
+## Current Outreach Focus
+
+Use the dated plan first: `OUTREACH-PLAN-2026-05-19.md`.
+
+The launch-window playbook below is still useful, but the site has moved from release timing to post-launch help. Prioritize:
+
+- Crash / startup / black screen help, especially when official support articles exist.
+- Game Pass / Xbox / cloud questions.
+- System requirements and below-minimum GPU/RAM questions.
+- Patch notes / roadmap questions.
+- Co-op save and invite behavior, but only as testing templates until verified.
+
+## Post-Launch Monitoring Cadence
 
 | Time | Task |
 |---|---|
-| Every 60 minutes for first 6 hours | Check Steam Discussions top active threads. |
-| Every 2 hours | Search Reddit for fresh "Subnautica 2" questions. |
-| Every 4 hours | Check official Steam news and community hub. |
+| Daily | Check Steam Discussions top active threads. |
+| Daily | Search Reddit for fresh "Subnautica 2" questions. |
+| Daily | Check official Steam news, Unknown Worlds news, and support articles. |
 | Twice daily | Check Search Console queries and pages. |
 | End of day | Record which posts got replies/clicks in the outreach log. |
 
@@ -104,9 +116,9 @@ Trigger examples:
 Template:
 
 ```text
-First safe checks: update GPU drivers, verify game files, restart, and disable overlays one by one. If you can share platform + GPU + error message, that helps narrow it down.
+First safe checks: update or roll back graphics drivers if a recent driver update triggered it, verify game files, restart, and disable overlays one by one. If you can share platform + GPU + error message, that helps narrow it down.
 
-I'm collecting confirmed launch issues and workarounds here:
+I'm collecting source-labeled launch issues and workarounds here:
 https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/crash-fix.html
 ```
 
@@ -123,13 +135,13 @@ Trigger examples:
 Template:
 
 ```text
-Steam is confirmed as the visible Early Access listing. For Game Pass/Xbox, I would verify against the Xbox/Microsoft Store page at launch because store timing can differ.
+The Xbox store lists Subnautica 2 Game Preview as included with Game Pass, but I would still verify the install button on your own account and region. For long saves, test cloud save and co-op invite behavior before committing.
 
-I'm tracking the Game Pass and cross-store status here:
+I'm tracking Steam vs PC Game Pass vs Xbox/cloud here:
 https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/game-pass.html
 ```
 
-Only state "yes" or "no" after official store confirmation.
+Only state "yes" or "no" when it matches official store status. Keep save, build-version, and invite behavior labeled until tested.
 
 ## Outreach Log
 

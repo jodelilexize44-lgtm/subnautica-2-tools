@@ -55,6 +55,7 @@ The site shell and internal link structure are complete enough for ongoing opera
 - `GSC-QUERY-LOG.md` - Search Console query log, page triage rules, and monetization gate.
 - `ADSENSE-READINESS.md` - AdSense readiness checklist, blockers, and ad placement gate.
 - `legal/advertise.html` - public advertising, sponsorship, affiliate, and brand safety policy.
+- `OUTREACH-PLAN-2026-05-19.md` - current ethical promotion plan and reply templates.
 
 ## Source Policy
 
