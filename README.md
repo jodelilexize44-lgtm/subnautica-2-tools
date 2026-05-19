@@ -1,4 +1,4 @@
-# Subnautica 2 Tools
+﻿# Subnautica 2 Tools
 
 Unofficial static guide and tool site for Subnautica 2 Early Access.
 
@@ -37,7 +37,7 @@ Cloudflare Pages setup:
 
 ## Before AdSense
 
-- Contact page now lists a reachable inbox: `jodelilexize44-lgtm@gmail.com`. Replace with a custom-domain inbox later if desired.
+- Contact page now lists a reachable inbox: `jodelilexize44@gmail.com`. Replace with a custom-domain inbox later if desired.
 - Add the production domain to all canonical URLs if canonical tags are introduced.
 - Add Google Search Console and submit a sitemap after the domain is chosen.
 - Add analytics only after updating `legal/privacy.html`.
