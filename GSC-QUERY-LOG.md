@@ -6,7 +6,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 
 | Date | Total clicks | Total impressions | Avg CTR | Avg position | Indexed pages | Notes |
 |---|---:|---:|---:|---:|---:|---|
-| 2026-05-19 |  |  |  |  |  | URL-prefix property verified by HTML file. GSC Sitemaps still shows `/sitemap.xml` as Couldn't fetch, Type Unknown, 0 discovered pages after resubmission. Site-side checks pass: public sitemap URL returns 200, robots.txt returns 200 and points to the correct sitemap, sitemap XML parses locally, contains 20 URLs under the URL-prefix property, and Googlebot user-agent receives 200. Treat as GSC refresh/processing delay; recheck within 24 hours before changing site files. |
+| 2026-05-19 |  |  |  |  |  | URL-prefix property verified by HTML file. GSC Sitemaps previously showed `/sitemap.xml` as Couldn't fetch, Type Unknown, 0 discovered pages after resubmission. Public live checks pass after latest deployment: robots.txt returns 200 and points to sitemap, sitemap.xml returns 200 with 26 URLs under the URL-prefix property, contact page returns 200 and shows `jodelilexize44@gmail.com`, and Googlebot user-agent receives 200 for sitemap. Treat remaining GSC sitemap warning, if still present in Search Console, as GSC refresh/processing delay before changing site files. |
 | 2026-05-18 | 364 | 14.1K | 2.6% | 8 | 11 | GSC Performance last update 3 hours ago. Page indexing shows 1 not indexed page: Alternate page with proper canonical tag. Sitemap `/sitemap.xml` was showing Couldn't fetch, but public URL returns 200 and sitemap was resubmitted successfully in GSC. |
 |  |  |  |  |  |  |  |
 
