@@ -24,6 +24,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 | 2026-05-18 | subnautica 2 crashes on startup | `guides/crash-fix.html` | 101 | 6 |  | Crash | Same startup cluster. | Done |
 | 2026-05-18 | subnautica 2 crashing on launch | `guides/crash-fix.html` | 143 | 5 |  | Crash | Same launch cluster. | Done |
 | 2026-05-18 | subnautica 2 system requirements / can i run subnautica 2 | `tools/system-requirements.html` | 774 | 8 |  | Specs CTR | GSC showed impressions but low clicks -> snippet / first-screen optimization. Updated title/meta, hero answer, Quick Answer, and Common GPU / RAM Questions. | Done |
+| 2026-05-19 | subnautica 2 patch notes / updates / roadmap | `guides/updates.html` | 597 | 17 |  | Updates CTR | GSC showed patch notes demand. Reworked title/meta, hero, Quick Status, Official Sources, Patch Note Tracker, and after-patch retest workflow. | Done |
 |  |  |  |  |  |  | Specs / Store / Co-op / Crash / Beginner / Resource / Map |  | Todo / Done / Watch |
 
 ## Top Pages Snapshot
@@ -31,7 +32,7 @@ Use this file when Google Search Console starts showing impressions. The goal is
 | Date | Page | Clicks | Impressions | Read |
 |---|---|---:|---:|---|
 | 2026-05-18 | `guides/crash-fix.html` | 328 | 12,315 | Main traffic page. Optimize first. |
-| 2026-05-18 | `guides/updates.html` | 17 | 597 | Patch notes demand exists. Keep fresh and connect to crash fixes. |
+| 2026-05-18 | `guides/updates.html` | 17 | 597 | Patch notes demand exists. Reworked as patch notes / official roadmap tracker on 2026-05-19; monitor CTR after recrawl. |
 | 2026-05-18 | `tools/system-requirements.html` | 8 | 774 | High impressions, low clicks. Title/snippet and first screen optimized after crash page. Monitor CTR after recrawl. |
 | 2026-05-18 | `/` | 5 | 97 | Homepage receives some branded/navigation traffic. |
 | 2026-05-18 | `tools/release-time.html` | 4 | 151 | Launch query tail still present. |
