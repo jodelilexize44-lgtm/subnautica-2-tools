@@ -407,11 +407,15 @@ h1 {
 
 .ad-slot {
   min-height: 250px;
-  display: grid;
+  display: none;
   place-items: center;
   text-align: center;
   background: #102226;
   box-shadow: none;
+}
+
+body.ads-enabled .ad-slot {
+  display: grid;
 }
 
 .form-grid {
