@@ -462,6 +462,18 @@ body.ads-enabled .ad-slot {
   font-size: 20px;
 }
 
+.template-box {
+  white-space: pre-wrap;
+  overflow-x: auto;
+  margin: 14px 0 0;
+  border: 1px solid rgba(52, 214, 191, 0.32);
+  border-radius: 8px;
+  background: #08191b;
+  color: #dffdf8;
+  padding: 16px;
+  line-height: 1.55;
+}
+
 .source-strip {
   display: flex;
   flex-wrap: wrap;
