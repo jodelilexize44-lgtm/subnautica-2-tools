@@ -31,6 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/database-roadmap.html</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://jodelilexize44-lgtm.github.io/subnautica-2-tools/tools/system-requirements.html</loc>
     <lastmod>2026-05-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,13 +50,13 @@
   </url>
   <url>
     <loc>https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/game-content.html</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jodelilexize44-lgtm.github.io/subnautica-2-tools/guides/gallery.html</loc>
-    <lastmod>2026-05-19</lastmod>
+    <lastmod>2026-05-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
