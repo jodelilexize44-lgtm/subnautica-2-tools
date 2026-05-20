@@ -80,6 +80,18 @@
             <p data-progress-label>0/4 complete</p>
           </section>
           <section class="tool-panel">
+            <h2>PC Game Pass Cross-Platform Disabled / News Feed Errors</h2>
+            <p>If PC Game Pass shows cross-platform play as disabled, cannot load a news feed, or fails before the invite flow, separate account/service health from Subnautica-specific co-op behavior first.</p>
+            <table class="table">
+              <tr><th>Check</th><th>What to record</th><th>Confidence</th></tr>
+              <tr><td>Xbox app account state</td><td>Signed-in account, subscription access, region, and whether the install button works.</td><td>General platform check</td></tr>
+              <tr><td>Xbox services / Gaming Services</td><td>Whether other PC Game Pass multiplayer titles can connect normally.</td><td>Useful comparison test</td></tr>
+              <tr><td>Privacy, firewall, NAT, or Teredo state</td><td>Any Xbox networking warning, blocked firewall prompt, or strict NAT clue.</td><td>Needs player report</td></tr>
+              <tr><td>Build parity</td><td>Steam, PC Game Pass, and Xbox build date or version if visible.</td><td>Important after patches</td></tr>
+              <tr><td>Invite path</td><td>In-game invite, platform friends list, party invite, or join code if available.</td><td>Needs current-build test</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
             <h2>Test Matrix</h2>
             <table class="table">
               <tr><th>Test</th><th>Method</th><th>Record</th></tr>

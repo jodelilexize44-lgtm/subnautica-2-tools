@@ -91,6 +91,18 @@
             </table>
           </section>
           <section class="tool-panel">
+            <h2>Random In-Game Crash vs Startup Crash</h2>
+            <p>A crash after swimming, loading a save, joining co-op, or entering a busy scene should not be diagnosed the same way as a crash before the menu appears. Record the timing first, then choose the safest next check.</p>
+            <table class="table">
+              <tr><th>Crash timing</th><th>Likely first checks</th><th>What to record</th></tr>
+              <tr><td>Before menu / during startup</td><td>Driver version, file verification, overlays, official AMD startup-crash note if relevant.</td><td>Exact error text and driver version.</td></tr>
+              <tr><td>Loading a save</td><td>Save age, patch date, cloud sync state, fresh-world comparison.</td><td>Whether a new world loads normally.</td></tr>
+              <tr><td>During exploration</td><td>Temperature, VRAM pressure, settings, background apps, storage type.</td><td>Area, route, settings, and session length.</td></tr>
+              <tr><td>During co-op</td><td>Host specs, guest platform, reconnect behavior, build parity, NAT/privacy clues.</td><td>Host/guest roles and invite path.</td></tr>
+              <tr><td>After changing settings</td><td>Reset to conservative settings, change one option at a time.</td><td>The last setting changed before the crash.</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
             <h2>Safe Fix Order</h2>
             <ol>
               <li>Restart the PC or console and try one clean launch.</li>

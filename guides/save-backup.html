@@ -36,6 +36,19 @@
             </ol>
           </section>
           <section class="tool-panel">
+            <h2>PC Game Pass Save Failure Reports</h2>
+            <p>Some players report PC Game Pass / Xbox app sessions where saving does not behave as expected. This site has not reproduced a confirmed fix yet, so treat the steps below as a cautious report checklist rather than guaranteed repair instructions.</p>
+            <table class="table">
+              <tr><th>Check</th><th>Why it matters</th><th>Status</th></tr>
+              <tr><td>Launch from the Xbox app</td><td>Starting from the same account and client can reduce account or entitlement confusion.</td><td>Community troubleshooting step</td></tr>
+              <tr><td>Confirm Xbox app and Microsoft Store sign-in</td><td>Mixed accounts can affect entitlement, cloud saves, and services.</td><td>Needs direct test</td></tr>
+              <tr><td>Check Gaming Services</td><td>PC Game Pass installs rely on Xbox / Microsoft Gaming Services.</td><td>General Xbox PC health check</td></tr>
+              <tr><td>Watch cloud sync prompts</td><td>A sync conflict can make it look like progress disappeared or failed to save.</td><td>Needs platform-specific test</td></tr>
+              <tr><td>Create a tiny test save, quit, restart</td><td>This confirms whether the problem is saving, loading, cloud sync, or a specific world.</td><td>Recommended test</td></tr>
+              <tr><td>Test solo before co-op</td><td>Host ownership and guest progress can confuse save reports.</td><td>Use with co-op matrix</td></tr>
+            </table>
+          </section>
+          <section class="tool-panel">
             <h2>Save Test Matrix</h2>
             <table class="table">
               <tr><th>Question</th><th>How to test</th><th>Status here</th></tr>
